@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Hero from '../../components/Hero.astro';
 import Intro from '../../components/Intro.astro';
+import Transport from '../../components/Transport.astro';
 import InfoSection from '../../components/InfoSection.astro';
 import Gallery from '../../components/Gallery.astro';
 import Reviews from '../../components/Reviews.astro';
@@ -19,6 +20,7 @@ const { messages } = getI18n(Astro.url);
 <BaseLayout title={messages.meta.title} description={messages.meta.description} path="">
   <Hero />
   <Intro />
+  <Transport />
   <InfoSection />
   <Gallery />
   <Reviews />

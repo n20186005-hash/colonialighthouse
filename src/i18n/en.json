@@ -7,6 +7,7 @@
     "siteName": "Colonia del Sacramento Lighthouse",
     "home": "Home",
     "visit": "Visit",
+    "transport": "Getting Here",
     "history": "History",
     "gallery": "Gallery",
     "reviews": "Reviews",
@@ -48,6 +49,98 @@
         "Part of Colonia's UNESCO World Heritage Site (1995)"
       ]
     }
+  },
+  "transportSection": {
+    "title": "How to Reach the Lighthouse",
+    "subtitle": "From international arrival points to the last stretch through the old town, this section lays out the most practical ways to reach the Colonia del Sacramento Lighthouse.",
+    "overviewTitle": "Start with where you are coming from",
+    "overviewText": "If you are travelling from within Uruguay, the usual pattern is to reach Colonia's bus terminal first and then finish the trip on foot, by bike or with a short taxi ride. If you are coming from Buenos Aires, the ferry is often the most direct cross-river connection. For most visitors, the lighthouse is a site reached by a final walk through the Historic Quarter rather than a doorstep stop for long-distance transport.",
+    "arrivalTitle": "Know this before you set out",
+    "arrivalItems": [
+      "The lighthouse sits inside the Historic Quarter, so the last stretch is often along cobbled streets.",
+      "The ferry terminal, bus terminal and central hotel area are all relatively close to the site.",
+      "Weekends and high season afternoons are busier; mornings and late afternoons are usually calmer."
+    ],
+    "modes": [
+      {
+        "label": "Option 01",
+        "title": "Air Travel",
+        "description": "The most common international air gateway is Carrasco International Airport (MVD) in Montevideo. Many visitors also fly to Buenos Aires and continue by ferry.",
+        "details": [
+          "From MVD you usually still need an intercity bus, private transfer or rental car onward to Colonia.",
+          "If you land in Buenos Aires, a very common route is airport to port, then ferry across to Colonia.",
+          "The lighthouse is not an airport-to-door attraction; the flight is almost always just the first leg."
+        ]
+      },
+      {
+        "label": "Option 02",
+        "title": "Train",
+        "description": "Rail is not currently a practical mainstream way to reach the lighthouse, and there is no mature passenger rail option that delivers visitors straight into the historic centre.",
+        "details": [
+          "If your wider itinerary includes rail, you will generally still need to switch to road transport for the final approach.",
+          "For most travellers, bus, ferry, taxi or self-drive is simpler.",
+          "In other words, train works better as a regional add-on than as the core access method for the lighthouse."
+        ]
+      },
+      {
+        "label": "Option 03",
+        "title": "Public Transport",
+        "description": "This is the most balanced option in terms of cost and convenience, especially if you are arriving from Montevideo or elsewhere in Uruguay.",
+        "details": [
+          "The usual pattern is an intercity bus to Colonia's terminal, followed by a walk or short taxi ride into the Historic Quarter.",
+          "The final stretch is straightforward, though large luggage makes it less comfortable.",
+          "If you arrive from Buenos Aires by ferry, ferry plus a short onward connection can also be treated as a public transport route."
+        ]
+      },
+      {
+        "label": "Option 04",
+        "title": "Ferry",
+        "description": "From the Argentine side of the river, the ferry is often the most direct and most natural way to enter Colonia's travel rhythm.",
+        "details": [
+          "Passenger ferry links between Buenos Aires and Colonia are well established and widely used for day trips.",
+          "Once you arrive at the port terminal, you can continue on foot, by taxi or by bicycle.",
+          "If your main goal is the old town and the lighthouse, the ferry is usually easier than a more fragmented air-based route."
+        ]
+      },
+      {
+        "label": "Option 05",
+        "title": "Taxi / Private Transfer",
+        "description": "For the last stretch from the bus terminal, ferry terminal or your hotel, a short taxi ride is one of the least tiring options.",
+        "details": [
+          "It is especially helpful for travellers with children, older companions or heavy bags.",
+          "Some streets in the Historic Quarter are narrow or uneven, so the drop-off point may still be a short walk from the tower.",
+          "Within the city, fares are usually easier to manage than a longer intercity transfer."
+        ]
+      },
+      {
+        "label": "Option 06",
+        "title": "Self-Drive",
+        "description": "Driving works well if Colonia is one stop within a broader Uruguay road trip, but parking and the last walking segment still matter once you reach the old town.",
+        "details": [
+          "From Montevideo, most drivers approach via Route 1.",
+          "It is usually best to park on the edge of the historic area or in authorised spaces, then continue on foot.",
+          "Inside the old quarter, the car is useful for reaching the city, not for closely exploring the lighthouse precinct itself."
+        ]
+      },
+      {
+        "label": "Option 07",
+        "title": "Cycling / Walking",
+        "description": "Once you are in Colonia, cycling or walking is often the most pleasant way to approach the lighthouse.",
+        "details": [
+          "The historic centre is compact, and many sights connect naturally on foot.",
+          "Cycling saves time, but the cobbles call for more care, especially after rain or during busy hours.",
+          "If you want to absorb the ruins, old gates and waterfront atmosphere along the way, walking is usually the richest option."
+        ]
+      }
+    ],
+    "localTipsTitle": "Useful tips for the final approach",
+    "localTips": [
+      "Rolling large luggage through the old quarter is not ideal, so leave bags at your hotel or in storage first if possible.",
+      "The streets around the lighthouse reward a slower pace, so avoid planning the visit too tightly.",
+      "If you want to climb the tower, line up your transport timing with opening hours so you do not arrive after access has closed."
+    ],
+    "mapsCta": "View Map & Route",
+    "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6"
   },
   "officialManagement": {
     "title": "About the Lighthouse",

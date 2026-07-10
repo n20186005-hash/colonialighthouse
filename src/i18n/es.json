@@ -7,6 +7,7 @@
     "siteName": "Faro de Colonia del Sacramento",
     "home": "Inicio",
     "visit": "Visita",
+    "transport": "Cómo llegar",
     "history": "Historia",
     "gallery": "Galería",
     "reviews": "Opiniones",
@@ -48,6 +49,98 @@
         "Parte del Patrimonio de la Humanidad de Colonia (1995)"
       ]
     }
+  },
+  "transportSection": {
+    "title": "Cómo llegar al faro",
+    "subtitle": "Desde la llegada internacional hasta el último tramo a pie por el casco histórico, aquí tienes una guía clara de las formas más habituales de llegar al Faro de Colonia del Sacramento.",
+    "overviewTitle": "Primero define tu punto de partida",
+    "overviewText": "Si viajas desde Uruguay, lo más habitual es llegar a la terminal de ómnibus de Colonia y completar el tramo final caminando, en bici o en taxi corto. Si vienes desde Buenos Aires, el ferry suele ser la conexión más directa. Para la mayoría de los visitantes, el faro es un lugar al que se llega con una última aproximación peatonal dentro del Barrio Histórico.",
+    "arrivalTitle": "Antes de salir",
+    "arrivalItems": [
+      "El faro está dentro del Barrio Histórico, así que el último tramo suele hacerse por calles empedradas.",
+      "La terminal de ferry, la terminal de buses y la zona hotelera del centro quedan relativamente cerca.",
+      "En temporada alta y los fines de semana por la tarde hay más movimiento; por la mañana o al final del día suele ser más llevadero."
+    ],
+    "modes": [
+      {
+        "label": "Opción 01",
+        "title": "Avión",
+        "description": "La puerta aérea internacional más habitual es el Aeropuerto de Carrasco (MVD), en Montevideo. Muchos visitantes también vuelan a Buenos Aires y continúan por barco.",
+        "details": [
+          "Desde MVD normalmente hace falta combinar con bus interdepartamental, traslado privado o coche de alquiler hasta Colonia.",
+          "Si aterrizas en Buenos Aires, una ruta muy común es ir al puerto y seguir en ferry hasta Colonia.",
+          "El faro no es un destino de acceso aéreo directo: el vuelo casi siempre es solo la primera etapa del viaje."
+        ]
+      },
+      {
+        "label": "Opción 02",
+        "title": "Tren",
+        "description": "Hoy el tren no es una forma práctica ni habitual de llegar al faro, y no existe una opción ferroviaria consolidada que deje al visitante directamente en el casco histórico.",
+        "details": [
+          "Si tu viaje incluye tren, lo normal es tener que completar el trayecto con transporte por carretera.",
+          "Para la mayoría de los viajeros es más simple ir en bus, ferry, taxi o coche.",
+          "En la práctica, el tren funciona mejor como complemento regional que como acceso principal al faro."
+        ]
+      },
+      {
+        "label": "Opción 03",
+        "title": "Transporte público",
+        "description": "Es la alternativa más equilibrada entre coste y comodidad, sobre todo para quienes salen de Montevideo u otras ciudades uruguayas.",
+        "details": [
+          "Lo habitual es tomar un ómnibus interdepartamental hasta la terminal de Colonia y después caminar o tomar un taxi corto.",
+          "El tramo final es sencillo, pero con equipaje grande resulta menos cómodo.",
+          "Si llegas desde Buenos Aires en ferry, también puedes considerar el conjunto ferry + caminata o conexión corta como una solución de transporte público."
+        ]
+      },
+      {
+        "label": "Opción 04",
+        "title": "Ferry",
+        "description": "Desde la orilla argentina, el ferry suele ser la vía más directa y natural para entrar en el ritmo de viaje de Colonia.",
+        "details": [
+          "Las conexiones de pasajeros entre Buenos Aires y Colonia están bien establecidas y son muy usadas por quienes van por el día.",
+          "Una vez en la terminal portuaria, puedes seguir a pie, en taxi o en bicicleta hacia el Barrio Histórico.",
+          "Si tu objetivo principal es el casco antiguo y el faro, el ferry suele ser más práctico que una combinación aérea con más transbordos."
+        ]
+      },
+      {
+        "label": "Opción 05",
+        "title": "Taxi / traslado privado",
+        "description": "Para moverte desde la terminal de buses, el puerto o tu alojamiento, el taxi corto es una de las formas más cómodas de resolver el último tramo.",
+        "details": [
+          "Es especialmente útil si viajas con personas mayores, niños o equipaje pesado.",
+          "En algunas calles del casco histórico el coche puede dejarte cerca, pero no siempre exactamente frente al faro.",
+          "Dentro de la ciudad, el coste suele ser más controlable que en un traslado interurbano largo."
+        ]
+      },
+      {
+        "label": "Opción 06",
+        "title": "Coche",
+        "description": "Conducir encaja bien en una ruta más amplia por Uruguay, aunque al llegar al casco histórico conviene pensar en el aparcamiento y en el tramo a pie.",
+        "details": [
+          "Desde Montevideo, la llegada más habitual es por la Ruta 1.",
+          "Conviene dejar el vehículo en el perímetro del centro histórico o en zonas habilitadas y seguir caminando.",
+          "Dentro del casco antiguo, el coche sirve para llegar a la ciudad; no es la mejor herramienta para visitar el faro calle a calle."
+        ]
+      },
+      {
+        "label": "Opción 07",
+        "title": "Bicicleta / a pie",
+        "description": "Una vez en Colonia, caminar o ir en bici suele ser la manera más agradable de acercarse al faro.",
+        "details": [
+          "El centro histórico es compacto y muchas visitas se enlazan naturalmente a pie.",
+          "La bici acorta tiempos, pero el empedrado exige más atención, sobre todo si llovió o hay mucha gente.",
+          "Si quieres disfrutar también de las ruinas, las murallas y la Rambla, caminar sigue siendo la experiencia más completa."
+        ]
+      }
+    ],
+    "localTipsTitle": "Consejos para el último tramo",
+    "localTips": [
+      "Entrar al casco histórico con maletas grandes no es lo más cómodo; si puedes, deja el equipaje antes en el hotel o en guarda.",
+      "Las calles alrededor del faro invitan a caminar despacio, así que conviene no planificar una visita demasiado apurada.",
+      "Si quieres subir al mirador, coordina tu llegada con el horario de apertura para no perder la entrada por llegar tarde."
+    ],
+    "mapsCta": "Ver mapa y ruta",
+    "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6"
   },
   "officialManagement": {
     "title": "Acerca del Faro",

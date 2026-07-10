@@ -21,13 +21,13 @@ const toggles = [
   <section class="section-padding" style="background: var(--bg-secondary);">
     <div class="max-w-3xl mx-auto px-4">
       <a href={homeHref} class="text-sm hover:opacity-70" style="color: var(--accent);">← {messages.header.backToHome}</a>
-      <h1 class="font-display text-4xl font-semibold mt-4 mb-2" style="color: var(--text-primary);">{c.title}</h1>
+      <h1 class="font-display text-3xl sm:text-4xl font-semibold mt-4 mb-2" style="color: var(--text-primary);">{c.title}</h1>
       <p class="text-base mb-10" style="color: var(--text-secondary);">{c.description}</p>
 
       <div class="space-y-4">
         {toggles.map((t) => (
-          <div class="flex items-center justify-between rounded-xl p-5 border" style="background: var(--card-bg); border-color: var(--border-color);">
-            <div>
+          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 rounded-xl p-5 border" style="background: var(--card-bg); border-color: var(--border-color);">
+            <div class="min-w-0">
               <div class="font-semibold" style="color: var(--text-primary);">
                 {t.title}
                 {t.badge && <span class="ml-2 text-xs px-2 py-0.5 rounded-full" style="background: var(--tag-bg); color: var(--tag-text);">{t.badge}</span>}
@@ -39,9 +39,9 @@ const toggles = [
         ))}
       </div>
 
-      <div class="mt-8">
-        <button type="button" id="save-cookies" class="px-8 py-3 rounded-full font-semibold text-white" style="background: var(--accent);">{c.save}</button>
-        <span id="saved-msg" class="ml-4 text-sm hidden" style="color: var(--accent);">{c.saved}</span>
+      <div class="mt-8 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4">
+        <button type="button" id="save-cookies" class="inline-flex w-full sm:w-auto justify-center px-8 py-3 rounded-full font-semibold text-white" style="background: var(--accent);">{c.save}</button>
+        <span id="saved-msg" class="text-sm hidden" style="color: var(--accent);">{c.saved}</span>
       </div>
     </div>
   </section>

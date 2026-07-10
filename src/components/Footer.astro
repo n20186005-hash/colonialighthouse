@@ -7,7 +7,7 @@ const links = f.officialLinksList;
 
 <footer class="section-padding" style="background: var(--bg-tertiary); border-top: 1px solid var(--border-color);">
   <div class="max-w-6xl mx-auto px-4">
-    <div class="grid md:grid-cols-3 gap-10">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
       <div>
         <h3 class="font-display text-xl font-semibold mb-3" style="color: var(--text-primary);" set:html={f.siteName}></h3>
         <p class="text-sm leading-relaxed" style="color: var(--text-secondary);">{f.rights}</p>
@@ -18,7 +18,7 @@ const links = f.officialLinksList;
         <ul class="space-y-2 text-sm">
           {links.map((link) => (
             <li>
-              <a href={link.url} target="_blank" rel="noopener noreferrer" class="hover:opacity-70" style="color: var(--accent);">
+              <a href={link.url} target="_blank" rel="noopener noreferrer" class="hover:opacity-70 break-words" style="color: var(--accent);">
                 {link.name} ↗
               </a>
             </li>
@@ -42,7 +42,7 @@ const links = f.officialLinksList;
     </div>
 
     <div class="mt-10 pt-6 border-t text-xs" style="border-color: var(--border-color); color: var(--text-muted);">
-      <p set:html={f.disclaimer}></p>
+      <p class="leading-relaxed" set:html={f.disclaimer}></p>
     </div>
   </div>
 </footer>

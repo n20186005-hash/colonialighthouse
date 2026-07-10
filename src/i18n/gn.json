@@ -7,6 +7,7 @@
     "siteName": "Colonia del Sacramento Faro",
     "home": "Ñepyrũ",
     "visit": "Jeguata",
+    "transport": "Mba'éichapa og̃uahẽ",
     "history": "Jeréia",
     "gallery": "Ta'anga aty",
     "reviews": "Jeikuaa",
@@ -48,6 +49,98 @@
         "Colonia UNESCO 1995 mba'e"
       ]
     }
+  },
+  "transportSection": {
+    "title": "Mba'éichapa reg̃uahẽ farópe",
+    "subtitle": "Aeropuerto guive, terminal guive ha ipahápe Barrio Histórico rupi guata hag̃uáicha, ko sección ombyaty tape ojepuruvéva Faro de Colonia del Sacramento-pe hag̃ua.",
+    "overviewTitle": "Ehecha moõ guipa reju",
+    "overviewText": "Uruguay ryepýgui reju ramo, jepive hag̃ua reg̃uahẽ terminal de ómnibus Colonia-pe ha upéi reguata, reho bicicleta-pe térã taxi mbykymíme Barrio Histórico peve. Buenos Aires guive reju ramo, ferry ha'e jepi tape rectovéva. Hetaiterei visitante-pe g̃uarã, faro ha'e peteĩ tenda ipahápe og̃uahẽva ojeguatáva.",
+    "arrivalTitle": "Neresẽ mboyve",
+    "arrivalItems": [
+      "Faro oĩ Barrio Histórico ryepýpe, upévare ipahápe jepi reguata tape itá rehe.",
+      "Terminal de ferry, terminal de ómnibus ha hotel-kuéra centropegua ndaha'éi mombyry.",
+      "Temporada alta ha fin de semana ka'aru jave oĩ hetave tapicha; pyhareve térã ka'aru hag̃uépe ipy'aguapýve."
+    ],
+    "modes": [
+      {
+        "label": "Tape 01",
+        "title": "Avión",
+        "description": "Aeropuerto internacional ojepuruvéva ha'e Carrasco (MVD), Montevideo-pe. Heta tapicha og̃uahẽ avei Buenos Aires-pe ha upéi ohasa ferry rupi.",
+        "details": [
+          "MVD guive jepive reguerekóta ómnibus interdepartamental, traslado privado térã auto alquilado Colonia peve.",
+          "Buenos Aires-pe reg̃uahẽ ramo, peteĩ tape jepivegua ha'e aeropuerto guive puerto peve ha upéi ferry Colonia peve.",
+          "Faro ndaha'éi peteĩ tenda avión guive reg̃uahẽ hag̃uáicha peteĩ jey; vuelo ha'e jepi ñepyrũnte."
+        ]
+      },
+      {
+        "label": "Tape 02",
+        "title": "Tren",
+        "description": "Ko'ág̃a tren ndaha'éi peteĩ opción práctica farópe hag̃ua, ha ndaipóri peteĩ servicio ferroviario porãva ogueraháva visitante-kuérape directamente casco histórico-pe.",
+        "details": [
+          "Nde viaje tren rehe oñemopyenda ramo, jepive reikotevẽta remoambue transporte rutero rehe.",
+          "Heta viajero-pe g̃uarã iporãve bus, ferry, taxi térã auto.",
+          "Upévare tren oiko porãve viaje regional peteĩ parte ramo, ndaha'éi acceso principal ramo."
+        ]
+      },
+      {
+        "label": "Tape 03",
+        "title": "Transporte público",
+        "description": "Ko opción ombojoja porã costo ha comodidad, ko'ýte Montevideo térã ambue táva Uruguaygua guive reju ramo.",
+        "details": [
+          "Jepive reg̃uahẽ ómnibus rupive terminal Colonia-pe ha upéi reguata térã reho taxi mbykymíme.",
+          "Ipahápe tape ndahasýi, péro equipaje guasu reheve ndoiko porãiite.",
+          "Buenos Aires guive ferry-pe reg̃uahẽ ramo, ferry + conexión mbykymi ikatu avei oñeñe'ẽ transporte público ramo."
+        ]
+      },
+      {
+        "label": "Tape 04",
+        "title": "Ferry",
+        "description": "Argentina guive reju ramo, ferry ha'e jepi tape directovéva ha naturalvéva Colonia-pe hag̃ua.",
+        "details": [
+          "Buenos Aires ha Colonia apytépe ferry de pasajeros oiko porãma ha heta ojepuru excursión peteĩ árape g̃uarã.",
+          "Puerto-pe reg̃uahẽ rire ikatu reguata, reho taxi-pe térã bicicleta-pe Barrio Histórico peve.",
+          "Nde objetivo principal ramo casco antiguo ha faro, ferry jepi hasy'ỹve ambue combinación-gui."
+        ]
+      },
+      {
+        "label": "Tape 05",
+        "title": "Taxi / traslado privado",
+        "description": "Terminal de ómnibus, terminal de ferry térã hotel guive, taxi mbykymi ha'e peteĩ opción ndive'ỹ hag̃uáicha ipahápe hag̃ua.",
+        "details": [
+          "Iporãite mitã, tuja térã equipaje pohýi ndive reho ramo.",
+          "Barrio Histórico-pe oĩ calle ipo'í ha itáva, upévare sapy'ánte reikóta peteĩ punto hi'aguĩvape ha upéi reguata.",
+          "Táva ryepýpe precio jepi ikontrolakuaa porãve peteĩ viaje puku hag̃uágui."
+        ]
+      },
+      {
+        "label": "Tape 06",
+        "title": "Auto",
+        "description": "Auto iporã Colonia omoĩramo peteĩ ruta tuichavévape Uruguay rupi, péro casco histórico-pe reg̃uahẽvo reikuaava'erã moõpa remoĩta ha reguata hag̃uáicha.",
+        "details": [
+          "Montevideo guive hetave tapicha og̃uahẽ Ruta 1 rupi.",
+          "Iporãve remoĩ auto perímetro térã tenda autorizada-pe ha upéi reguata.",
+          "Casco antiguo ryepýpe auto iporãve távape hag̃uánte, ndaha'éi visita detallada-rã."
+        ]
+      },
+      {
+        "label": "Tape 07",
+        "title": "Bicicleta / guata",
+        "description": "Colonia-pe reg̃uahẽ rire, bicicleta térã guata ha'e jepi tape iporãvéva farópe hag̃uáicha.",
+        "details": [
+          "Centro histórico michĩ ha heta tenda ikatu ojoaju ojeguatáva.",
+          "Bicicleta ombyky aravo, péro tape itáva ojerure atenciónve, ko'ýte oky rire térã tapicha hetáramo.",
+          "Ryakuã, muralla ha Rambla rehe avei remaña ramo, guata jepi experiencia hekovéva."
+        ]
+      }
+    ],
+    "localTipsTitle": "Consejo ipahápe g̃uarã",
+    "localTips": [
+      "Equipaje guasu reheve reguata hag̃ua Barrio Histórico-pe ndahasýi, upévare iporãve eheja hotel térã guardería-pe ikatúrõ.",
+      "Faro jerére umi calle ojerure py'aguapy, ani remoĩ agenda pohýieterei.",
+      "Ehupiséramo yvate, embojoaju nde transporte horario de apertura ndive ani hag̃ua reg̃uahẽ tarde."
+    ],
+    "mapsCta": "Ehecha mapa ha tape",
+    "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6"
   },
   "officialManagement": {
     "title": "Faro ñemombe'u",
