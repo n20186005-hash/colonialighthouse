@@ -2,7 +2,7 @@
 import { getI18n, getLangFromUrl } from '../i18n/ui';
 import { getWeather } from '../lib/weather';
 const { messages } = getI18n(Astro.url);
-const lang = getLangFromUrl(Astro.url) as 'es' | 'en' | 'zh' | 'gn';
+const lang = getLangFromUrl(Astro.url) as 'es' | 'en' | 'zh' | 'gn' | 'pt';
 const w = await getWeather(lang);
 const W = messages.weather;
 ---
@@ -37,7 +37,7 @@ const W = messages.weather;
     var initial = JSON.parse(root.getAttribute('data-initial') || 'null');
     var W = JSON.parse(root.getAttribute('data-i18n') || '{}');
     var lang = root.getAttribute('data-lang');
-    var BCP47 = { es: 'es-ES', en: 'en-US', zh: 'zh-CN', gn: 'gn' };
+    var BCP47 = { es: 'es-ES', en: 'en-US', zh: 'zh-CN', gn: 'gn', pt: 'pt-BR' };
 
     function esc(s) {
       return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {

@@ -2,18 +2,20 @@ import en from './en.json';
 import es from './es.json';
 import zh from './zh.json';
 import gn from './gn.json';
+import pt from './pt.json';
 
 export const defaultLang = 'es';
-export const languagesList = ['es', 'en', 'zh', 'gn'] as const;
+export const languagesList = ['es', 'en', 'zh', 'gn', 'pt'] as const;
 
 export const languages: Record<string, string> = {
   es: 'Español',
   en: 'English',
   zh: '中文',
   gn: "Avañe'ẽ",
+  pt: 'Português',
 };
 
-const ui: Record<string, any> = { en, es, zh, gn };
+const ui: Record<string, any> = { en, es, zh, gn, pt };
 
 export function getLangFromUrl(url: URL): string {
   const seg = url.pathname.split('/').filter(Boolean);
@@ -42,10 +44,13 @@ export function buildAlternates(path = ''): Record<string, string> {
     en: mk('en'),
     zh: mk('zh'),
     gn: mk('gn'),
+    pt: mk('pt'),
     xDefault: mk('es'),
   };
 }
 
 export function htmlLangAttr(lang: string): string {
-  return lang === 'zh' ? 'zh-CN' : lang;
+  if (lang === 'zh') return 'zh-CN';
+  if (lang === 'pt') return 'pt-BR';
+  return lang;
 }

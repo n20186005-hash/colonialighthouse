@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "Farol de Colônia do Sacramento, Colônia do Sacramento — Guia de visita",
+    "description": "Guia completo do Farol de Colônia do Sacramento: aberto todos os dias, 10h30–17h30, história, as ruínas do convento de São Francisco, vistas do Rio da Prata e como chegar no bairro histórico, Patrimônio Mundial da UNESCO."
+  },
+  "header": {
+    "siteName": "Farol de Colônia do Sacramento",
+    "home": "Início",
+    "visit": "Visita",
+    "transport": "Como chegar",
+    "history": "História",
+    "gallery": "Galeria",
+    "reviews": "Avaliações",
+    "faq": "Perguntas",
+    "map": "Mapa",
+    "backToHome": "Voltar ao início"
+  },
+  "common": {
+    "changeLanguage": "Mudar idioma",
+    "toggleTheme": "Alternar tema"
+  },
+  "hero": {
+    "title": "Farol de Colônia do Sacramento",
+    "subtitle": "Um farol do século XIX erguido sobre as ruínas de um convento do século XVII, sentinela silenciosa do Rio da Prata e do centro histórico do Uruguai, Patrimônio Mundial.",
+    "rating": "4,6 (8.838)",
+    "reviewCount": "8.838 avaliações",
+    "hours": "Geralmente aberto todos os dias, ~10h30–17h30",
+    "openMaps": "Ver localização",
+    "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6"
+  },
+  "intro": {
+    "title": "Conheça o Farol de Colônia do Sacramento",
+    "description": "O Farol de Colônia do Sacramento é uma torre cilíndrica de pedra construída em 1857 sobre as ruínas do Convento de São Francisco Xavier, um mosteiro franciscano do século XVII. Com cerca de 34 metros de altura, ainda guia as embarcações no Rio da Prata e oferece vistas panorâmicas do Bairro Histórico, declarado Patrimônio Mundial da UNESCO em 1995. É um dos monumentos mais fotografados de Colônia do Sacramento, cidade que mudou de mãos onze vezes entre Portugal e Espanha.",
+    "visitGuide": {
+      "title": "Guia de visita",
+      "items": [
+        "Aberto quase todos os dias, das 10h30 às 17h30 aproximadamente; o horário varia conforme a estação, confirme antes de ir.",
+        "Localizado na Calle de San Francisco, dentro do muralhado Bairro Histórico.",
+        "Subir a escada em caracol custa uma pequena entrada.",
+        "A poucos minutos a pé do terminal de ferry e da praça principal."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Destaques",
+      "items": [
+        "Um farol em funcionamento sobre ruínas conventuais do século XVII",
+        "Aceso pela primeira vez em 1857, cerca de 34 m de altura",
+        "Vistas panorâmicas do Rio da Prata e do centro antigo",
+        "Parte do Patrimônio Mundial de Colônia (1995)"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "Como chegar ao farol",
+    "subtitle": "Da chegada internacional até o último trecho a pé pelo centro histórico: aqui está um guia claro das formas mais comuns de chegar ao Farol de Colônia do Sacramento.",
+    "overviewTitle": "Primeiro defina seu ponto de partida",
+    "overviewText": "Se você viaja a partir do Uruguai, o mais comum é chegar à rodoviária de Colônia e cobrir o trecho final a pé, de bicicleta ou com um táxi curto. Se vem de Buenos Aires, o ferry costuma ser a conexão mais direta. Para a maioria dos visitantes, o farol é um lugar que se alcança com uma última aproximação a pé dentro do Bairro Histórico.",
+    "arrivalTitle": "Antes de sair",
+    "arrivalItems": [
+      "O farol fica dentro do Bairro Histórico, então o último trecho costuma ser feito por ruas de pedras.",
+      "O terminal de ferry, a rodoviária e a área hoteleira do centro ficam relativamente perto.",
+      "Na alta temporada e aos fins de semana à tarde há mais movimento; de manhã ou no fim do dia costuma ser mais tranquilo."
+    ],
+    "modes": [
+      {
+        "label": "Opção 01",
+        "title": "Avião",
+        "description": "A porta aérea internacional mais comum é o Aeroporto de Carrasco (MVD), em Montevidéu. Muitos visitantes também voam a Buenos Aires e seguem de barco.",
+        "details": [
+          "A partir de MVD normalmente é preciso combinar com ônibus interestadual, traslado privado ou carro alugado até Colônia.",
+          "Se você pousa em Buenos Aires, uma rota muito comum é ir ao porto e seguir de ferry até Colônia.",
+          "O farol não é um destino de acesso aéreo direto: o voo quase sempre é apenas a primeira etapa da viagem."
+        ]
+      },
+      {
+        "label": "Opção 02",
+        "title": "Trem",
+        "description": "Hoje o trem não é uma forma prática nem comum de chegar ao farol, e não existe uma opção ferroviária consolidada que deixe o visitante diretamente no centro histórico.",
+        "details": [
+          "Se sua viagem inclui trem, o normal é ter de completar o percurso com transporte rodoviário.",
+          "Para a maioria dos viajantes é mais simples ir de ônibus, ferry, táxi ou carro.",
+          "Na prática, o trem funciona melhor como complemento regional do que como acesso principal ao farol."
+        ]
+      },
+      {
+        "label": "Opção 03",
+        "title": "Transporte público",
+        "description": "É a alternativa mais equilibrada entre custo e conforto, sobretudo para quem sai de Montevidéu ou de outras cidades uruguaias.",
+        "details": [
+          "O comum é pegar um ônibus interestadual até a rodoviária de Colônia e depois caminhar ou pegar um táxi curto.",
+          "O trecho final é simples, mas com bagagem grande fica menos confortável.",
+          "Se você chega de Buenos Aires de ferry, também pode considerar o conjunto ferry + caminhada ou conexão curta como uma solução de transporte público."
+        ]
+      },
+      {
+        "label": "Opção 04",
+        "title": "Ferry",
+        "description": "A partir da margem argentina, o ferry costuma ser o caminho mais direto e natural para entrar no ritmo de viagem de Colônia.",
+        "details": [
+          "As conexões de passageiros entre Buenos Aires e Colônia estão bem estabelecidas e são muito usadas por quem vai para o dia.",
+          "Uma vez no terminal portuário, você pode seguir a pé, de táxi ou de bicicleta até o Bairro Histórico.",
+          "Se seu objetivo principal é o centro antigo e o farol, o ferry costuma ser mais prático do que uma combinação aérea com mais baldeações."
+        ]
+      },
+      {
+        "label": "Opção 05",
+        "title": "Táxi / traslado privado",
+        "description": "Para se deslocar a partir da rodoviária, do porto ou de seu hospedagem, o táxi curto é uma das formas mais confortáveis de resolver o último trecho.",
+        "details": [
+          "É especialmente útil se você viaja com idosos, crianças ou bagagem pesada.",
+          "Em algumas ruas do centro histórico o carro pode deixá-lo perto, mas nem sempre exatamente em frente ao farol.",
+          "Dentro da cidade, o custo costuma ser mais controlável do que em um traslado intermunicipal longo."
+        ]
+      },
+      {
+        "label": "Opção 06",
+        "title": "Carro",
+        "description": "Dirigir combina bem com um roteiro mais amplo pelo Uruguai, embora ao chegar ao centro histórico convém pensar no estacionamento e no trecho a pé.",
+        "details": [
+          "A partir de Montevidéu, a chegada mais comum é pela Rota 1.",
+          "Convém deixar o veículo no perímetro do centro histórico ou em áreas permitidas e seguir a pé.",
+          "Dentro do centro antigo, o carro serve para chegar à cidade; não é a melhor ferramenta para visitar o farol rua por rua."
+        ]
+      },
+      {
+        "label": "Opção 07",
+        "title": "Bicicleta / a pé",
+        "description": "Uma vez em Colônia, caminhar ou pedalar costuma ser a maneira mais agradável de se aproximar do farol.",
+        "details": [
+          "O centro histórico é compacto e muitas visitas se conectam naturalmente a pé.",
+          "A bicicleta encurta tempos, mas o calçamento exige mais atenção, sobretudo se choveu ou há muita gente.",
+          "Se você quer aproveitar também as ruínas, as muralhas e a Rambla, caminhar ainda é a experiência mais completa."
+        ]
+      }
+    ],
+    "localTipsTitle": "Dicas para o último trecho",
+    "localTips": [
+      "Entrar no centro histórico com malas grandes não é o mais confortável; se puder, deixe a bagagem antes no hotel ou em guarda-volumes.",
+      "As ruas ao redor do farol convidam a caminhar devagar, então convém não planejar uma visita apressada demais.",
+      "Se quiser subir ao mirante, coordene sua chegada com o horário de abertura para não perder a entrada por chegar atrasado."
+    ],
+    "mapsCta": "Ver mapa e rota",
+    "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6"
+  },
+  "officialManagement": {
+    "title": "Sobre o Farol",
+    "text": "O farol está situado no Bairro Histórico de Colônia do Sacramento, um sítio do Patrimônio Mundial da UNESCO administrado localmente pela Intendência de Colônia. A torre e as adjacentes ruínas de São Francisco formam um pequeno complexo museológico que preserva uma das camadas mais antigas do passado colonial português da cidade. Como um dos monumentos mais visitados do Uruguai, mantém-se tanto como auxílio à navegação quanto como sítio patrimonial público."
+  },
+  "knowledge": {
+    "title": "História, significado e lenda do Farol",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Origens (1857)",
+        "content": "Em meados do século XIX, o crescente tráfego do Rio da Prata — e os numerosos naufrágios neste trecho tão traiçoeiro da costa — criaram uma clara necessidade de uma luz de navegação confiável. Em 1857 as autoridades coloniais construíram um farol cilíndrico bem sobre uma das torres que ainda restava em pé do Convento de São Francisco Xavier. O convento, fundado pelos portugueses em 1683, fora destruído em 1704 quando seu paiol de pólvora explodiu durante a luta hispano-portuguesa pela cidade. Em vez de remover as ruínas, os engenheiros simplesmente ergueram a nova torre sobre elas: por isso ainda se vêem hoje os muros do convento na base do farol."
+      },
+      {
+        "id": "meaning",
+        "title": "Por que aqui?",
+        "content": "O farol foi situado sobre as ruínas de São Francisco por uma razão prática: o local já oferecia uma base sólida e elevada perto da foz do rio. Simbolicamente, também sobrepõe dois séculos de história em uma única estrutura: um convento franciscano do século XVII e uma baliza marítima do século XIX. A luz foi modernizada com o tempo, mas a silhueta da torre vigia o Rio da Prata quase sem mudanças há mais de 160 anos."
+      },
+      {
+        "id": "legend",
+        "title": "Lendas locais",
+        "content": "Os moradores costumam dizer que o farol vela pelas almas de quem se perdeu nos naufrágios do rio, e que seu feixe é uma saudação silenciosa a cada barco que chega a porto seguro. Outros apontam a tranquila ironia de um símbolo de guia erguer-se onde antes caiu uma casa de oração. Seja fato ou folclore, o Farol continua sendo o doce ponto de encontro entre o passado sagrado e o presente marítimo de Colônia."
+      },
+      {
+        "id": "significance",
+        "title": "Um símbolo de Colônia",
+        "content": "Hoje o farol é o emblema inconfundível de Colônia do Sacramento. Pintado de branco, como é característico na cidade, sustenta a imagem de cartão-postal do centro antigo e da Rambla. Ao lado da calçada Calle de los Suspiros e do Portón de Campo, é o que os visitantes mais lembram: e a subida mais curta à melhor panorâmica da cidade."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galeria de fotos",
+    "subtitle": "O farol e as ruas intemporais do Bairro Histórico de Colônia",
+    "photoAlt": "Farol de Colônia do Sacramento sobre as ruínas do convento de São Francisco",
+    "viewAll": "Ver localização no Google Maps",
+    "showMore": "Mostrar mais fotos",
+    "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6"
+  },
+  "reviews": {
+    "title": "Avaliações dos visitantes",
+    "declaration": "As avaliações dos visitantes estão disponíveis no Google Maps (link externo).",
+    "moreReviews": "Ver no Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6",
+    "items": [
+      {
+        "name": "James H.",
+        "date": "Março 2026",
+        "rating": 5,
+        "text": "Imperdível em Colônia. Subimos pouco antes do pôr do sol e a vista sobre o Rio da Prata foi inesquecível. A entrada custa quase nada e as ruínas do convento na base são fascinantes."
+      },
+      {
+        "name": "Maria S.",
+        "date": "Fevereiro 2026",
+        "rating": 5,
+        "text": "Um canto muito tranquilo, dentro do Bairro Histórico. Nossa guia explicou como o farol foi construído sobre o convento do século XVII e a visita ganhou muita profundidade."
+      },
+      {
+        "name": "Thomas K.",
+        "date": "Janeiro 2026",
+        "rating": 4,
+        "text": "Um local icônico para fotografar e uma subida fácil. Enche ao meio-dia, então vá cedo. A torre branca contra o rio azul é o cartão-postal de Colônia."
+      },
+      {
+        "name": "Anna L.",
+        "date": "Dezembro 2025",
+        "rating": 5,
+        "text": "Voltamos duas vezes: de dia e na hora dourada. Cada vez parece diferente. Um verdadeiro símbolo da cidade e uma perfeita primeira parada no centro antigo."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Como chegar",
+    "subtitle": "Calle de San Francisco, Bairro Histórico, Colônia do Sacramento, Uruguai",
+    "openMaps": "Abrir no Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6"
+  },
+  "footer": {
+    "siteName": "Farol de Colônia do Sacramento",
+    "rights": "© 2026 Farol de Colônia do Sacramento — Guia de viagem independente. Todos os direitos reservados.",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de serviço",
+    "cookies": "Configurações de cookies",
+    "officialResourcesTitle": "Recursos oficiais e de referência",
+    "mapsLabel": "Google Maps →",
+    "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6",
+    "officialLinksList": [
+      { "name": "Ministério do Turismo (Uruguai)", "url": "https://www.gub.uy/ministerio-turismo/" },
+      { "name": "Uruguay Natural — Turismo Oficial", "url": "https://uruguaynatural.com/" },
+      { "name": "Intendência de Colônia", "url": "https://www.colonia.gub.uy/" },
+      { "name": "Ministério da Educação e Cultura", "url": "https://www.gub.uy/ministerio-educacao-cultura/" }
+    ],
+    "disclaimer": "Este é um projeto independente e sem fins lucrativos de informação para visitantes. Não temos afiliação com nenhum órgão governamental ou instituição oficial."
+  },
+  "privacy": {
+    "title": "Política de privacidade",
+    "lastUpdated": "Última atualização: Março de 2026",
+    "sections": [
+      {
+        "heading": "1. Coleta de informações",
+        "content": "De modo geral, não coletamos ativamente informações pessoais identificáveis dos usuários. Quaisquer informações que você nos forneça por meio de formulários de contato ou e-mails serão mantidas estritamente confidenciais."
+      },
+      {
+        "heading": "2. Uso das informações",
+        "content": "As informações que coletamos são usadas unicamente para oferecer, manter e melhorar nossos serviços, e para nos comunicar com você. Não vendemos nem compartilhamos suas informações pessoais com terceiros para fins de marketing."
+      },
+      {
+        "heading": "3. Cookies e rastreamento",
+        "content": "Utilizamos cookies e tecnologias de rastreamento semelhantes para monitorar a atividade em nosso site e armazenar certas informações. Você pode configurar seu navegador para recusar todos os cookies ou para avisá-lo quando um cookie for enviado."
+      },
+      {
+        "heading": "4. Segurança dos dados",
+        "content": "A segurança de seus dados é importante para nós. Utilizamos meios comercialmente aceitáveis para proteger seus dados pessoais, embora nenhum método de transmissão pela Internet seja 100% seguro."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Termos de serviço",
+    "lastUpdated": "Última atualização: Março de 2026",
+    "sections": [
+      {
+        "heading": "1. Aceitação dos termos",
+        "content": "Ao acessar e utilizar este site, você concorda em ficar vinculado a estes termos de serviço. Se você não concorda com qualquer parte dos termos, não poderá acessar o serviço."
+      },
+      {
+        "heading": "2. Uso do serviço",
+        "content": "Este site é um projeto independente e sem fins lucrativos de informação para visitantes. As informações fornecidas têm apenas fins informativos gerais. Você concorda em utilizar o site de forma responsável e lícita."
+      },
+      {
+        "heading": "3. Propriedade intelectual",
+        "content": "Todo o conteúdo deste site, incluindo textos, imagens e logotipos, é de propriedade do titular do site, salvo indicação em contrário. É estritamente proibido o uso, reprodução ou distribuição não autorizados."
+      },
+      {
+        "heading": "4. Limitação de responsabilidade",
+        "content": "Não nos responsabilizamos por quaisquer danos diretos, indiretos, incidentais ou consequentes decorrentes do uso ou da impossibilidade de uso deste site ou das informações que ele contém."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Configurações de cookies",
+    "description": "Gerencie suas preferências de cookies.",
+    "essential": {
+      "title": "Cookies estritamente necessários",
+      "description": "Requeridos para a funcionalidade básica do site.",
+      "badge": "Sempre ativos"
+    },
+    "analytics": {
+      "title": "Cookies de análise",
+      "description": "Ajudam-nos a entender como os visitantes interagem com o site."
+    },
+    "marketing": {
+      "title": "Cookies de marketing",
+      "description": "Usados para rastrear visitantes entre sites."
+    },
+    "save": "Salvar preferências",
+    "saved": "Preferências salvas!"
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "subtitle": "Informações práticas sobre serviços, história e planejamento de sua visita ao Farol de Colônia do Sacramento.",
+    "amenities": {
+      "title": "Serviços na região",
+      "items": [
+        { "icon": "🅿️", "label": "Estacionamento", "value": "Zona azul e estacionamentos" },
+        { "icon": "🚻", "label": "Banheiros", "value": "Em museus e cafés" },
+        { "icon": "🔌", "label": "Carga / Gasolina", "value": "Postos no centro" },
+        { "icon": "♿", "label": "Acessibilidade", "value": "Calçadas do centro, rampa à base" }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "Transporte e infraestrutura",
+        "items": [
+          {
+            "q": "Há estacionamento na região? Qual o valor?",
+            "a": "O farol fica dentro do Bairro Histórico pedonal, onde o trânsito de carros é restrito. Há estacionamento azul pagante e alguns estacionamentos logo fora do centro muralhado, a poucos passos. As tarifas são modestas (algumas centenas de pesos por hora); na alta temporada (dezembro a fevereiro) enche cedo, então o mais fácil é ir a pé ou de bicicleta."
+          },
+          {
+            "q": "É acessível com cadeira de rodas ou carrinho de bebê?",
+            "a": "Sim. As ruas de pedra do centro são planas, mas irregulares em alguns trechos; chega-se à base do farol e há acesso sem degraus ao exterior e às ruínas. Subir a escada em caracol até o topo, porém, não é acessível em cadeira de rodas."
+          },
+          {
+            "q": "Há banheiros ou serviços de comida na região?",
+            "a": "Não há banheiros públicos no próprio farol, mas o centro histórico está repleto de cafés, restaurantes e pequenos museus (vários com banheiro) a um minuto a pé. A Rambla e a praça também têm quiosques."
+          }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "História e curiosidades",
+        "items": [
+          {
+            "q": "Por que o farol foi construído sobre um convento?",
+            "a": "O Convento de São Francisco Xavier era um mosteiro franciscano do século XVII destruído em 1704 quando seu paiol de pólvora explodiu. Quando a cidade precisou de uma luz de navegação em 1857, os engenheiros reutilizaram uma das torres ainda em pé como fundação: por isso o farol cresce literalmente das ruínas da igreja colonial."
+          },
+          {
+            "q": "Qual a altura e é possível entrar?",
+            "a": "A torre cilíndrica tem cerca de 34 m (uns 110 pés) e possui uma escada em caracol até a lanterna. Está aberta aos visitantes mediante uma pequena entrada, e pode-se subir até o topo para uma vista panorâmica do Rio da Prata e dos telhados do centro antigo."
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Planejamento e entradas",
+        "items": [
+          {
+            "q": "Cobra-se entrada?",
+            "a": "Sim, subir ao farol custa uma pequena entrada simbólica (cerca de 100 pesos uruguaios; confirme no local). O exterior, as ruínas de São Francisco e o entorno do Bairro Histórico são percorridos gratuitamente."
+          },
+          {
+            "q": "Quanto tempo é necessário para visitá-lo?",
+            "a": "Calcule de 20 a 40 minutos: comprar a entrada, subir a escada em caracol, desfrutar a vista e ler os painéis do pequeno museu. Somado a um passeio pelo centro antigo, a experiência preenche facilmente uma manhã ou uma tarde."
+          },
+          {
+            "q": "Pode-se ir com mau tempo?",
+            "a": "O centro antigo e as ruínas são a céu aberto e ficam bem com qualquer clima, mas a subida fica exposta ao vento e pode fechar com tempestade ou chuva forte. Nos dias muito quentes do verão, vá cedo ou no fim do dia para evitar o sol na escada metálica."
+          }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "O que ver por perto",
+        "items": [
+          {
+            "q": "Encerrando a visita, que outros lugares recomendam por perto?",
+            "a": "A passos estão a Calle de los Suspiros, o Portón de Campo, a Basílica do Santíssimo Sacramento e o Museu Português, tudo dentro do centro histórico UNESCO. O terminal de ferry oferece excursões de um dia a Buenos Aires, e a Rambla é perfeita para o pôr do sol."
+          }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Conheça mais em Colônia do Sacramento",
+    "attractionsTitle": "Atrações próximas",
+    "toursTitle": "Passeios e atividades recomendados",
+    "attractions": [
+      { "name": "Calle de los Suspiros", "url": "https://uruguaynatural.com/" },
+      { "name": "Museu Português", "url": "https://www.colonia.gub.uy/" },
+      { "name": "Basílica do Santíssimo Sacramento", "url": "https://www.gub.uy/ministerio-turismo/" }
+    ],
+    "tours": [
+      { "name": "Visita a pé pelo Bairro Histórico", "url": "https://uruguaynatural.com/" },
+      { "name": "Passeio de bicicleta por Colônia", "url": "https://uruguaynatural.com/" },
+      { "name": "Excursão de um dia a Buenos Aires de ferry", "url": "https://www.gub.uy/ministerio-turismo/" }
+    ]
+  },
+  "sources": {
+    "title": "Fontes e referências oficiais",
+    "subtitle": "Referências autorizadas utilizadas para elaborar este guia independente.",
+    "items": [
+      { "name": "Centro do Patrimônio Mundial da UNESCO — Centro Histórico de Colônia do Sacramento", "publisher": "UNESCO", "url": "https://whc.unesco.org/en/list/747/" },
+      { "name": "Ministério do Turismo (Uruguai)", "publisher": "Governo do Uruguai", "url": "https://www.gub.uy/ministerio-turismo/" },
+      { "name": "Uruguay Natural — Turismo Oficial", "publisher": "Uruguay Natural", "url": "https://uruguaynatural.com/" },
+      { "name": "Intendência de Colônia", "publisher": "Governo Departamental", "url": "https://www.colonia.gub.uy/" }
+    ]
+  },
+  "weather": {
+    "title": "Clima e melhor época para visitar",
+    "subtitle": "Condições ao vivo no farol e previsão de 7 dias para Colônia do Sacramento, para planejar conforme o sol, o vento e a chuva do Rio da Prata.",
+    "feelsLike": "Sensação térmica",
+    "humidity": "Umidade",
+    "wind": "Vento",
+    "precip": "Chuva",
+    "uv": "UV",
+    "forecast": "Previsão de 7 dias",
+    "unavailable": "O clima ao vivo não está disponível no momento. O farol abre todos os dias das 10h30 às 17h30 aproximadamente; olhe para o céu antes de subir.",
+    "alert": "Aviso de clima",
+    "risk": "Precaução",
+    "outfit": "O que vestir",
+    "plan": "Plano para hoje",
+    "items": "Leve"
+  },
+  "facilities": {
+    "title": "Serviços ao visitante e equipamentos próximos",
+    "subtitle": "Informação prática e neutra por tipo para planejar sua visita ao Bairro Histórico. Listamos categorias, não comércios específicos, para manter a independência.",
+    "items": [
+      { "icon": "🚻", "label": "Banheiros", "value": "Dentro do museu e em cafeterias perto da Praça Principal; não há banheiro público na base da torre." },
+      { "icon": "🅿️", "label": "Estacionamento", "value": "Zona azul pagante na rua e alguns estacionamentos fora do centro muralhado; caminhe a partir daí." },
+      { "icon": "🍽️", "label": "Comida e bebida", "value": "Cafeterias, churrascarias e sorveterias cercam as ruas pedonais do centro, a passos do farol." },
+      { "icon": "🛏️", "label": "Hospedagem", "value": "Pousadas e pequenos hotéis no centro e na Rambla; reserve com antecedência no verão." },
+      { "icon": "🛒", "label": "Lojas", "value": "Mercearias e souvenirs perto do porto e da Praça Principal para o básico e presentes." },
+      { "icon": "🔌", "label": "Combustível e carga", "value": "Postos de serviço no centro; os pontos de recarga para veículos elétricos são limitados — planeje se for de carro elétrico." },
+      { "icon": "💵", "label": "Dinheiro", "value": "Caixas eletrônicos e casas de câmbio no centro; leve algum dinheiro para museus pequenos e quiosques." },
+      { "icon": "♿", "label": "Acessibilidade", "value": "Ruas de pedra chegam à base do farol; a escada em caracol ao mirante não é adequada para cadeiras de rodas." }
+    ]
+  },
+  "seasonal": {
+    "title": "Estratégia de viagem por estação",
+    "subtitle": "Colônia tem clima temperado pelo Rio da Prata. Segundo as normais climáticas de 30 anos, isto é o que esperar de cada estação — datas do hemisfério sul.",
+    "note": "Os valores são médias regionais indicativas de 30 anos, não uma previsão. Verifique o clima ao vivo antes de sair.",
+    "cols": ["Estação", "Temperatura", "Chuva", "Vento", "Dica"],
+    "rows": [
+      { "season": "Verão (dez–fev)", "temp": "Quente, 20–30°C", "rain": "Pancadas e tempestades ocasionais", "wind": "Ventoso, Pampero forte possível", "advice": "Suba no amanhecer ou após as 17h para evitar o sol do meio-dia; leve água e proteção solar." },
+      { "season": "Outono (mar–mai)", "temp": "Ameno, 15–24°C", "rain": "Leve, em queda", "wind": "Moderado", "advice": "Muitas vezes a estação mais confortável para caminhar e fotografar o centro." },
+      { "season": "Inverno (jun–ago)", "temp": "Fresco, 8–16°C", "rain": "Frentes ocasionais", "wind": "Frio, rajadas", "advice": "Vista em camadas agasalhadas; a escada metálica esfria e a torre pode fechar com tempestade." },
+      { "season": "Primavera (set–nov)", "temp": "Ameno, 16–25°C", "rain": "Variável", "wind": "Ventoso", "advice": "Dias verdes e agradáveis — boa luz para fotos e menos gente que no verão." }
+    ]
+  },
+  "itineraries": {
+    "title": "Itinerários recomendados",
+    "subtitle": "Formas sob medida de conhecer o farol e o centro UNESCO, segundo o tipo de viajante e o tempo disponível.",
+    "audiencesTitle": "Por tipo de viajante",
+    "audiences": [
+      { "id": "family", "title": "Famílias com crianças", "desc": "Curto, prático e perto de comida e banheiros.", "items": ["Subam ao farol juntos e explorem a Calle de los Suspiros", "Tomem sorvete na Praça Principal", "Descansem em uma cafeteria com banheiro próximo"] },
+      { "id": "photo", "title": "Fotógrafos e natureza", "desc": "Busquem a melhor luz e as vistas mais amplas.", "items": ["Hora dourada do topo sobre o Rio da Prata", "Hora azul na Rambla e no Portón de Campo", "Detalhes das ruínas do convento e dos paralelepípedos"] },
+      { "id": "accessible", "title": "Baixo esforço / acessível", "desc": "A nível do solo, sem escadas.", "items": ["Caminhem pelas ruas planas até a base do farol", "Desfrutem as ruínas e o exterior gratuitamente", "Descansem em um banco com vista para a Rambla"] }
+    ],
+    "routesTitle": "Por tempo disponível",
+    "routes": [
+      { "id": "half", "title": "Meio dia", "desc": "O essencial se você tem poucas horas.", "items": ["Chegue a pé do porto ou da rodoviária", "Suba ao farol pela panorâmica", "Passeie pela Calle de los Suspiros e o Portón de Campo"] },
+      { "id": "full", "title": "Dia completo", "desc": "Um dia relax no Bairro Histórico.", "items": ["Subida matinal + sala do museu", "Almoço em uma churrascaria do centro", "Tarde na Rambla e na Basílica", "Segunda subida ao pôr do sol e volta de ferry ou ônibus"] }
+    ]
+  },
+  "responsibility": {
+    "title": "Patrimônio e responsabilidade do visitante",
+    "subtitle": "O farol e as ruínas do convento são parte protegida de um Sítio do Patrimônio Mundial da UNESCO. Hábitos conscientes preservam-no para todos.",
+    "items": [
+      { "icon": "🏛️", "title": "Proteja as ruínas", "text": "Fique nos caminhos e não suba nem se apoie nos muros do convento do século XVII; são frágeis e protegidos." },
+      { "icon": "🌿", "title": "Respeito ao rio", "text": "O estuário do Rio da Prata é um ecossistema vivo — leve seu lixo e não perturbe a fauna." },
+      { "icon": "♻️", "title": "Viaje leve", "text": "Reabasteça uma garrafa, evite o plástico descartável e use as lixeiras sinalizadas do centro." },
+      { "icon": "⚓", "title": "Suba com cuidado", "text": "A escada em caracol é estreita e metálica; segure-se no corrimão, cuide das crianças e dê passagem se houver gente." }
+    ]
+  },
+  "knowledgeVisit": {
+    "id": "visit",
+    "title": "A subida e o que se vê",
+    "content": "A torre se eleva cerca de 34 metros (uns 110 pés) por uma escada em caracol de umas 150 degraus. Continua sendo uma ajuda ativa à navegação, e sua lanterna varre o Rio da Prata à noite. Do alto vê-se o terracota dos telhados do Bairro Histórico, o rio que brilha e, nos dias claros, a costa argentina ao fundo. Um pequeno museu in loco explica o convento sobre o qual o farol foi construído. Como a escada fica exposta ao vento e ao sol, as subidas ao meio-dia de verão são as mais pesadas — manhãs e tardes são mais gentis com as pernas e com a câmera."
+  },
+  "quickRoutes": {
+    "title": "Rotas rápidas para o farol",
+    "items": [
+      { "from": "Do aeroporto (Montevidéu MVD)", "steps": "Ônibus de longa distância, traslado ou carro alugado até a rodoviária de Colônia; depois caminhe ~15 min ou um táxi curto até o Bairro Histórico." },
+      { "from": "Da rodoviária", "steps": "Caminhe ~15 min ou um táxi curto até o centro muralhado; o farol está sinalizado a partir da Praça Principal." },
+      { "from": "De táxi / remís", "steps": "Deixado perto da borda do centro; os últimos minutos são a pé pelos paralelepípedos." }
+    ]
+  },
+  "tides": {
+    "title": "Marés no Rio da Prata",
+    "subtitle": "O rio em Colônia tem marés suaves, duas vezes ao dia, impulsionadas pelo Atlântico. As alturas ajudam a cronometrar um passeio pela Rambla e pela margem.",
+    "rising": "Subindo",
+    "falling": "Baixando",
+    "flat": "Estável",
+    "nextHigh": "Próxima preamar",
+    "nextLow": "Próxima baixamar",
+    "upcoming": "Próximas preamares e baixamares",
+    "high": "Preamar",
+    "low": "Baixamar",
+    "note": "Na baixamar, a margem e a borda da Rambla deixam à mostra lama e bancos rasos — fique nos caminhos e cuide dos passos.",
+    "unavailable": "Os dados de maré ao vivo não estão disponíveis. Via de regra o rio sobe e desce umas duas vezes ao dia; consulte no local antes de ir à margem."
+  }
+}

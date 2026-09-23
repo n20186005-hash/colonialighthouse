@@ -13,7 +13,7 @@ export default {
     const url = new URL(req.url);
 
     if (url.pathname === '/api/weather') {
-      const lang = (url.searchParams.get('lang') || 'es') as 'es' | 'en' | 'zh' | 'gn';
+      const lang = (url.searchParams.get('lang') || 'es') as 'es' | 'en' | 'zh' | 'gn' | 'pt';
       const cache = caches.default;
       const cacheKey = new Request(`https://cache.local/api/weather?lang=${lang}`);
 

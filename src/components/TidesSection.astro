@@ -2,7 +2,7 @@
 import { getI18n, getLangFromUrl } from '../i18n/ui';
 import { getTides } from '../lib/tides';
 const { messages } = getI18n(Astro.url);
-const lang = getLangFromUrl(Astro.url) as 'es' | 'en' | 'zh' | 'gn';
+const lang = getLangFromUrl(Astro.url) as 'es' | 'en' | 'zh' | 'gn' | 'pt';
 const t = await getTides();
 const T = messages.tides;
 ---
@@ -30,7 +30,7 @@ const T = messages.tides;
     var initial = JSON.parse(root.getAttribute('data-initial') || 'null');
     var T = JSON.parse(root.getAttribute('data-i18n') || '{}');
     var lang = root.getAttribute('data-lang');
-    var BCP47 = { es: 'es-ES', en: 'en-US', zh: 'zh-CN', gn: 'gn' };
+    var BCP47 = { es: 'es-ES', en: 'en-US', zh: 'zh-CN', gn: 'gn', pt: 'pt-BR' };
 
     function esc(s) {
       return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {

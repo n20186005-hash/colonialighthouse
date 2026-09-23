@@ -11,7 +11,7 @@ export default defineConfig({
   trailingSlash: 'always',
   i18n: {
     defaultLocale: 'es',
-    locales: ['es', 'en', 'zh', 'gn'],
+    locales: ['es', 'en', 'zh', 'gn', 'pt'],
     routing: {
       prefixDefaultLocale: true,
     },
@@ -20,7 +20,7 @@ export default defineConfig({
     sitemap({
       i18n: {
         defaultLocale: 'es',
-        locales: { es: 'es', en: 'en', zh: 'zh', gn: 'gn' },
+        locales: { es: 'es', en: 'en', zh: 'zh', gn: 'gn', pt: 'pt-BR' },
       },
     }),
   ],

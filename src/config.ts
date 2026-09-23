@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Colonia del Sacramento Lighthouse',
   baseUrl: 'https://colonialighthouse.com',
-  locales: ['es', 'en', 'zh', 'gn'] as const,
+  locales: ['es', 'en', 'zh', 'gn', 'pt'] as const,
 };
 
 export const ogLocale: Record<string, string> = {
@@ -9,6 +9,7 @@ export const ogLocale: Record<string, string> = {
   en: 'en_US',
   zh: 'zh_CN',
   gn: 'gn',
+  pt: 'pt_BR',
 };
 
 // Single-entity SEO facts for the Colonia del Sacramento Lighthouse.
