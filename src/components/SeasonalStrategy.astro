@@ -1,0 +1,37 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const s = messages.seasonal;
+---
+
+<section id="seasonal" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{s.title}</h2>
+    <p class="text-center text-base sm:text-lg mb-8 max-w-3xl mx-auto" style="color: var(--text-secondary);">{s.subtitle}</p>
+
+    <div class="overflow-x-auto rounded-2xl border" style="border-color: var(--border-color);">
+      <table class="w-full text-sm border-collapse" style="background: var(--card-bg);">
+        <thead>
+          <tr style="background: var(--bg-tertiary);">
+            {s.cols.map((c) => (
+              <th class="text-left font-semibold p-3 whitespace-nowrap" style="color: var(--text-primary);">{c}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {s.rows.map((row) => (
+            <tr class="border-t align-top" style="border-color: var(--border-color);">
+              <td class="p-3 font-semibold whitespace-nowrap" style="color: var(--text-primary);">{row.season}</td>
+              <td class="p-3" style="color: var(--text-secondary);">{row.temp}</td>
+              <td class="p-3" style="color: var(--text-secondary);">{row.rain}</td>
+              <td class="p-3" style="color: var(--text-secondary);">{row.wind}</td>
+              <td class="p-3" style="color: var(--text-secondary);">{row.advice}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <p class="text-center text-xs mt-4" style="color: var(--text-muted);">{s.note}</p>
+  </div>
+</section>

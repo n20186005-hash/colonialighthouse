@@ -1,0 +1,16 @@
+{
+  "name": "Colonia del Sacramento Lighthouse — Visitor Guide",
+  "short_name": "Colonia Lighthouse",
+  "description": "Independent visitor guide to the Colonia del Sacramento Lighthouse (Faro de Colonia del Sacramento) in Uruguay's UNESCO-listed old town.",
+  "start_url": "/es",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f2015",
+  "theme_color": "#234830",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

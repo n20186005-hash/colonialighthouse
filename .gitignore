@@ -11,8 +11,12 @@ coverage/
 out/
 build/
 .vercel/
+.wrangler/
+.dev.vars
+.wrangler-state.json
 *.tsbuildinfo
 next-env.d.ts
+*.heapsnapshot
 
 # Local environment files
 .env*.local

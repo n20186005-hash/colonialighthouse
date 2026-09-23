@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Colonia del Sacramento Faro | Uruguay",
+    "title": "Colonia del Sacramento Faro, Colonia del Sacramento — Jeheka",
     "description": "Colonia del Sacramento Faro (Faro de Colonia del Sacramento) mboyerovia: jeréia, San Francisco convento ryakuã, ta'anga, jeikuaa ha mba'éichapa ogusteta Uruguay tetãygua Barrio Histórico-pe."
   },
   "header": {
@@ -22,8 +22,8 @@
   "hero": {
     "title": "Colonia del Sacramento Faro",
     "subtitle": "Siglo XIX faro oúva siglo XVII convento ryakuã gui, Río de la Plata ha Uruguay UNESCO Barrio Histórico ñangarekohára.",
-    "rating": "4.6(8.706)",
-    "reviewCount": "Jeikuaa 8.706",
+    "rating": "4.6(8.838)",
+    "reviewCount": "Jeikuaa 8.838",
     "hours": "Arapýpe oĩ, ~10:30–17:30",
     "openMaps": "Ehecha tenda",
     "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6"
@@ -386,5 +386,109 @@
       { "name": "Colonia bicicleta jeguata", "url": "https://uruguaynatural.com/" },
       { "name": "Buenos Aires ferry jeheka", "url": "https://www.gub.uy/ministerio-turismo/" }
     ]
+  },
+  "sources": {
+    "title": "Fuente ha oficina referencia",
+    "subtitle": "Fuente autorizado ojepuru ko jeheka peteĩha-pe.",
+    "items": [
+      { "name": "UNESCO World Heritage Centre — Barrio Histórico de Colonia del Sacramento", "publisher": "UNESCO", "url": "https://whc.unesco.org/en/list/747/" },
+      { "name": "Ministerio de Turismo (Uruguay)", "publisher": "Gobierno Uruguay", "url": "https://www.gub.uy/ministerio-turismo/" },
+      { "name": "Uruguay Natural — Turismo", "publisher": "Uruguay Natural", "url": "https://uruguaynatural.com/" },
+      { "name": "Intendencia de Colonia", "publisher": "Gobierno Departamental", "url": "https://www.colonia.gub.uy/" }
+    ]
+  },
+  "weather": {
+    "title": "Ára ha ipyahuvéva",
+    "subtitle": "Ára koágã farópe ha 7 ára Colonia del Sacramento, emboyke sol, yvytu ha arapy Río de la Plata-pe.",
+    "feelsLike": "Temeẽ",
+    "humidity": "Ka'aru",
+    "wind": "Yvytu",
+    "precip": "Arapy",
+    "uv": "UV",
+    "forecast": "7 ára",
+    "unavailable": "Ára live ndoroikuaa. Faro oipe'a arapýpe 10:30–17:30; ehecha ára mboyve hupá.",
+    "alert": "Ára ñe'ẽ",
+    "risk": "Cuidado",
+    "outfit": "Mba'épa eikuávo",
+    "plan": "Plan",
+    "items": "Egueru"
+  },
+  "facilities": {
+    "title": "Tenda ha oĩva",
+    "subtitle": "Marandu tipo neutral visitante Barrio Histórico-pe. Romomba categoría, ndaha'éi tenda, independiente.",
+    "items": [
+      { "icon": "🚻", "label": "Baño", "value": "Museo ha café Plaza Mayor; ndaroikuaa baño faro ypykue." },
+      { "icon": "🅿️", "label": "Estacionamiento", "value": "Zona azul pago ha estacionamiento muralla ypykue; reguata." },
+      { "icon": "🍽️", "label": "Comida", "value": "Café, parrilla ha helado calle peatonal, faro jerére." },
+      { "icon": "🛏️", "label": "Alojamiento", "value": "Posada ha hotel Barrio Histórico ha Rambla; reserva verano." },
+      { "icon": "🛒", "label": "Tienda", "value": "Grocería ha souvenir puerto ha Plaza Mayor." },
+      { "icon": "🔌", "label": "Nafta / Carga", "value": "Estación nafta centro; EV limitado — plan." },
+      { "icon": "💵", "label": "Dinero", "value": "ATM ha cambio centro; egueru viru museo michĩ." },
+      { "icon": "♿", "label": "Accesibilidad", "value": "Calle itáva faro yvága; escalera caracol ndaha'éi silla." }
+    ]
+  },
+  "seasonal": {
+    "title": "Ára jejui estrategia",
+    "subtitle": "Colonia oguereko clima templado Río de la Plata rupi. 30 ary clima, ko'ápe oĩva hemisferio sur.",
+    "note": "Número ha'e 30 ary promedio regional, ndaha'éi pronóstico. Ehecha ára live mboyve.",
+    "cols": ["Estación", "Temperatura", "Arapy", "Yvytu", "Consejo"],
+    "rows": [
+      { "season": "Verano (Dic–Feb)", "temp": "Raku, 20–30°C", "rain": "Arapy ha arai", "wind": "Yvytu, Pampero tuicha", "advice": "Hupá ama ha 17:00 rire, sol rehe; egueru y ha sol." },
+      { "season": "Otoño (Mar–May)", "temp": "Michĩ, 15–24°C", "rain": "Arapy michĩ", "wind": "Moderado", "advice": "Iporãve guata ha ta'anga Barrio Histórico." },
+      { "season": "Invierno (Jun–Ago)", "temp": "Roky, 8–16°C", "rain": "Frente", "wind": "Roky, rafaga", "advice": "Año rwake; escalera metal roky ha faro ikatu oñemboí." },
+      { "season": "Primavera (Sep–Nov)", "temp": "Michĩ, 16–25°C", "rain": "Variable", "wind": "Yvytu", "advice": "Ára porã, ta'anga iporã ha tapicha michĩ." }
+    ]
+  },
+  "itineraries": {
+    "title": "Jeheka recomendado",
+    "subtitle": "Forma faro ha Barrio Histórico UNESCO, tipo visitante ha aravo.",
+    "audiencesTitle": "Tipo visitante",
+    "audiences": [
+      { "id": "family", "title": "Familia mitã", "desc": "Michĩ, mano ha comida baño jerére.", "items": ["Hupá familia, Calle de los Suspiros", "Helado Plaza Mayor", "Café baño"] },
+      { "id": "photo", "title": "Fotógrafo", "desc": "Temeẽ iporãve ha vista.", "items": ["Hora dorada hupá Río de la Plata", "Rambla ha Portón de Campo", "Ryakuã convento"] },
+      { "id": "accessible", "title": "Esfuerzo michĩ", "desc": "Toka, escalera", "items": ["Calle faro yvága", "Ryakuã gratis", "Asiento Rambla"] }
+    ],
+    "routesTitle": "Aravo",
+    "routes": [
+      { "id": "half", "title": "Medios día", "desc": "Esencial horas michĩ.", "items": ["Puerto térã terminal reguata", "Hupá faro", "Calle de los Suspiros"] },
+      { "id": "full", "title": "Día completo", "desc": "Día Barrio Histórico.", "items": ["Hupá mañana + museo", "Almuerzo parrilla", "Rambla ha Basílica", "Hupá kuarahy oity"] }
+    ]
+  },
+  "responsibility": {
+    "title": "Patrimonio ha visitante",
+    "subtitle": "Faro ha ryakuã ha'e UNESCO mba'e. Costumbre iporã opavave.",
+    "items": [
+      { "icon": "🏛️", "title": "Mboye ryakuã", "text": "Peteĩ calle, ani embope ryakuã convento siglo XVII; oĩva protegido." },
+      { "icon": "🌿", "title": "Respeto río", "text": "Río de la Plata ha'e ecosistema; egueru basura, ani mba'e." },
+      { "icon": "♻️", "title": "Viaje michĩ", "text": "Botella, ani plástico, tachos señalizado." },
+      { "icon": "⚓", "title": "Hupá cuidado", "text": "Escalera caracol michĩ; embope pasamanos, mitã, cede." }
+    ]
+  },
+  "knowledgeVisit": {
+    "id": "visit",
+    "title": "Hupá ha ojehecha",
+    "content": "Kuatiá 34 metro rupi, escalera caracol 150. Ha'e navegación activo, lanterna ohecha Río de la Plata pyhare. Yvága ohecha Barrio Histórico, río ha Argentina. Museo omombe'u convento. Escalera viento ha sol, verano kuarahy mbyteve hasy; mañana ha pyhareve iporãve."
+  },
+  "quickRoutes": {
+    "title": "Ruta rápida farópe",
+    "items": [
+      { "from": "Aeropuerto (Montevideo MVD)", "steps": "Ómnibus, traslado térã auto Colonia terminal; reguata ~15 min térã taxi Barrio Histórico." },
+      { "from": "Terminal ómnibus", "steps": "Reguata ~15 min térã taxi casco; faro señalizado Plaza Mayor." },
+      { "from": "Taxi / remís", "steps": "Dejada casco ypykue; ipahápe calle itáva." }
+    ]
+  },
+  "tides": {
+    "title": "Yguasu Río de la Plata",
+    "subtitle": "Río Colonia oguereko marea michĩ, 2 jey ára, Atlántico rupi. Altura oipytyukuaa Rambla guata.",
+    "rising": "Hupi",
+    "falling": "Guejy",
+    "flat": "Joja",
+    "nextHigh": "Upeigua yguasu",
+    "nextLow": "Upeigua michĩ",
+    "upcoming": "Yguasu ha michĩ",
+    "high": "Yguasu",
+    "low": "Michĩ",
+    "note": "Michĩ ramo, rire ha Rambla ohecha yno; calle goto, cuidado.",
+    "unavailable": "Marea live ndoroikuaa. Río 2 jey ára; ehecha mboyve."
   }
 }

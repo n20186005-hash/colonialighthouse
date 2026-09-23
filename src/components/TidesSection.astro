@@ -1,0 +1,102 @@
+---
+import { getI18n, getLangFromUrl } from '../i18n/ui';
+import { getTides } from '../lib/tides';
+const { messages } = getI18n(Astro.url);
+const lang = getLangFromUrl(Astro.url) as 'es' | 'en' | 'zh' | 'gn';
+const t = await getTides();
+const T = messages.tides;
+---
+
+<section id="tides" class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{T.title}</h2>
+    <p class="text-center text-base sm:text-lg mb-10 max-w-3xl mx-auto" style="color: var(--text-secondary);">{T.subtitle}</p>
+
+    <div id="tides-body" data-initial={JSON.stringify(t)} data-i18n={JSON.stringify(T)} data-lang={lang}
+         class="rounded-2xl p-6 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+      {t ? (
+        <p class="text-center text-lg" style="color: var(--text-secondary);">{t.current.height} m · {T[t.current.trend]}</p>
+      ) : (
+        <p class="text-center text-base" style="color: var(--text-muted);">{T.unavailable}</p>
+      )}
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var root = document.getElementById('tides-body');
+    if (!root) return;
+    var initial = JSON.parse(root.getAttribute('data-initial') || 'null');
+    var T = JSON.parse(root.getAttribute('data-i18n') || '{}');
+    var lang = root.getAttribute('data-lang');
+    var BCP47 = { es: 'es-ES', en: 'en-US', zh: 'zh-CN', gn: 'gn' };
+
+    function esc(s) {
+      return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+      });
+    }
+    function timePart(iso) { return iso.slice(11, 16); }
+    function dayLabel(iso) {
+      try {
+        var dt = new Date(iso.slice(0, 10) + 'T12:00:00Z');
+        return new Intl.DateTimeFormat(BCP47[lang] || 'en-US', { weekday: 'short' }).format(dt);
+      } catch (e) { return ''; }
+    }
+    function trendArrow(trend) {
+      return trend === 'rising' ? '↑' : trend === 'falling' ? '↓' : '→';
+    }
+
+    function render(d) {
+      if (!d) {
+        root.innerHTML = '<p class="text-center text-base" style="color:var(--text-muted);">' + esc(T.unavailable) + '</p>';
+        return;
+      }
+      var cur =
+        '<div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 text-center">' +
+          '<div class="text-4xl font-semibold" style="color:var(--text-primary);">' + esc(d.current.height) + ' m</div>' +
+          '<div class="text-sm px-3 py-1 rounded-full" style="background:var(--accent);color:#fff;">' + trendArrow(d.current.trend) + ' ' + esc(T[d.current.trend]) + '</div>' +
+        '</div>';
+
+      var cards = '<div class="grid sm:grid-cols-2 gap-4 mb-6">';
+      if (d.nextHigh) {
+        cards += '<div class="rounded-xl p-4 border text-center" style="background:var(--card-bg);border-color:var(--border-color);">' +
+          '<div class="text-sm font-semibold" style="color:var(--accent);">' + esc(T.nextHigh) + '</div>' +
+          '<div class="text-2xl font-semibold mt-1" style="color:var(--text-primary);">' + esc(timePart(d.nextHigh.time)) + '</div>' +
+          '<div class="text-sm" style="color:var(--text-secondary);">' + esc(d.nextHigh.height) + ' m</div></div>';
+      }
+      if (d.nextLow) {
+        cards += '<div class="rounded-xl p-4 border text-center" style="background:var(--card-bg);border-color:var(--border-color);">' +
+          '<div class="text-sm font-semibold" style="color:var(--accent);">' + esc(T.nextLow) + '</div>' +
+          '<div class="text-2xl font-semibold mt-1" style="color:var(--text-primary);">' + esc(timePart(d.nextLow.time)) + '</div>' +
+          '<div class="text-sm" style="color:var(--text-secondary);">' + esc(d.nextLow.height) + ' m</div></div>';
+      }
+      cards += '</div>';
+
+      var list = '';
+      if (d.extrema && d.extrema.length) {
+        list = '<div class="border-t pt-4" style="border-color:var(--border-color);">' +
+          '<div class="text-sm font-semibold mb-3" style="color:var(--text-primary);">' + esc(T.upcoming) + '</div>' +
+          '<div class="grid grid-cols-2 sm:grid-cols-3 gap-2">';
+        d.extrema.forEach(function (e) {
+          list += '<div class="rounded-lg p-3 text-center" style="background:var(--card-bg);">' +
+            '<div class="text-xs" style="color:var(--text-muted);">' + esc(dayLabel(e.time)) + ' ' + esc(timePart(e.time)) + '</div>' +
+            '<div class="text-sm font-semibold" style="color:var(--text-primary);">' + esc(e.type === 'high' ? T.high : T.low) + '</div>' +
+            '<div class="text-xs" style="color:var(--text-secondary);">' + esc(e.height) + ' m</div></div>';
+        });
+        list += '</div></div>';
+      }
+
+      var note = '<p class="text-center text-xs mt-5" style="color:var(--text-muted);">' + esc(T.note) + '</p>';
+
+      root.innerHTML = cur + cards + list + note;
+    }
+
+    if (initial) render(initial);
+    fetch('/api/tides')
+      .then(function (r) { return r.json(); })
+      .then(function (d) { if (d) render(d); })
+      .catch(function () {});
+  })();
+</script>

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Colonia del Sacramento Lighthouse | Faro de Colonia del Sacramento, Uruguay",
+    "title": "Colonia del Sacramento Lighthouse, Colonia del Sacramento — Visitor Guide",
     "description": "The complete guide to the Colonia del Sacramento Lighthouse (Faro de Colonia del Sacramento): history, the San Francisco convent ruins it stands on, photos, visitor reviews, and how to get there in Uruguay's UNESCO-listed old town."
   },
   "header": {
@@ -22,8 +22,8 @@
   "hero": {
     "title": "Colonia del Sacramento Lighthouse",
     "subtitle": "A 19th-century lighthouse rising from the ruins of a 17th-century convent — a quiet sentinel over the Río de la Plata and Uruguay's UNESCO-listed old town.",
-    "rating": "4.6(8,706)",
-    "reviewCount": "8,706 reviews",
+    "rating": "4.6(8,838)",
+    "reviewCount": "8,838 reviews",
     "hours": "Typically open daily, ~10:30–17:30",
     "openMaps": "View Location",
     "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6"
@@ -386,5 +386,109 @@
       { "name": "Colonia bike tour", "url": "https://uruguaynatural.com/" },
       { "name": "Buenos Aires ferry day trip", "url": "https://www.gub.uy/ministerio-turismo/" }
     ]
+  },
+  "sources": {
+    "title": "Sources & Official References",
+    "subtitle": "Authoritative references used to compile this independent visitor guide.",
+    "items": [
+      { "name": "UNESCO World Heritage Centre — Historic Quarter of Colonia del Sacramento", "publisher": "UNESCO", "url": "https://whc.unesco.org/en/list/747/" },
+      { "name": "Ministerio de Turismo (Uruguay)", "publisher": "Gobierno de Uruguay", "url": "https://www.gub.uy/ministerio-turismo/" },
+      { "name": "Uruguay Natural — Official Tourism", "publisher": "Uruguay Natural", "url": "https://uruguaynatural.com/" },
+      { "name": "Intendencia de Colonia", "publisher": "Gobierno Departamental", "url": "https://www.colonia.gub.uy/" }
+    ]
+  },
+  "weather": {
+    "title": "Weather & Best Time to Visit",
+    "subtitle": "Live conditions at the lighthouse and the 7-day outlook for Colonia del Sacramento, so you can plan around sun, wind and rain on the Río de la Plata.",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "precip": "Rain",
+    "uv": "UV",
+    "forecast": "7-day forecast",
+    "unavailable": "Live weather is temporarily unavailable. The lighthouse is open daily roughly 10:30–17:30; check the sky before you climb.",
+    "alert": "Weather alert",
+    "risk": "Caution",
+    "outfit": "What to wear",
+    "plan": "Plan for today",
+    "items": "Pack"
+  },
+  "facilities": {
+    "title": "Visitor Services & Nearby Facilities",
+    "subtitle": "Practical, type-neutral information for planning your visit to the Barrio Histórico. We list categories, not specific businesses, to stay independent.",
+    "items": [
+      { "icon": "🚻", "label": "Restrooms", "value": "Inside the museum and at cafés around the Plaza Mayor; no public toilet at the tower base." },
+      { "icon": "🅿️", "label": "Parking", "value": "Blue-zone (zona azul) paid street parking and a few lots just outside the walled old town; walk in from there." },
+      { "icon": "🍽️", "label": "Food & drink", "value": "Cafés, parrillas and ice-cream shops line the pedestrian streets of the old town, steps from the lighthouse." },
+      { "icon": "🛏️", "label": "Lodging", "value": "Guesthouses and small hotels in the old town and along the Rambla; book ahead in summer." },
+      { "icon": "🛒", "label": "Shops", "value": "Groceries and souvenir stores near the port and Plaza Mayor for basics and gifts." },
+      { "icon": "🔌", "label": "Fuel & charging", "value": "Petrol stations in the city centre; EV charging points are limited — plan ahead if driving an EV." },
+      { "icon": "💵", "label": "Money", "value": "ATMs and currency-exchange in the centre; carry some cash for small museums and kiosks." },
+      { "icon": "♿", "label": "Accessibility", "value": "Flat cobbled streets reach the lighthouse base; the spiral stair to the top is not wheelchair-friendly." }
+    ]
+  },
+  "seasonal": {
+    "title": "Seasonal Travel Strategy",
+    "subtitle": "Colonia has a temperate climate shaped by the Río de la Plata. Based on 30-year climate normals, here is what to expect each season — southern-hemisphere dates.",
+    "note": "Figures are indicative 30-year regional averages, not a forecast. Always check live weather before you set out.",
+    "cols": ["Season", "Temperature", "Rain", "Wind", "Tip"],
+    "rows": [
+      { "season": "Summer (Dec–Feb)", "temp": "Warm, 20–30°C", "rain": "Occasional showers & storms", "wind": "Breezy, strong Pampero possible", "advice": "Climb at sunrise or after 17:00 to avoid the midday sun; carry water and sun protection." },
+      { "season": "Autumn (Mar–May)", "temp": "Mild, 15–24°C", "rain": "Light, decreasing", "wind": "Moderate", "advice": "Often the most comfortable season for walking the old town and photographing it." },
+      { "season": "Winter (Jun–Aug)", "temp": "Cool, 8–16°C", "rain": "Occasional fronts", "wind": "Cold, gusty", "advice": "Dress in warm layers; the metal stair can be chilly and the tower may close in storms." },
+      { "season": "Spring (Sep–Nov)", "temp": "Mild, 16–25°C", "rain": "Variable", "wind": "Breezy", "advice": "Green, pleasant days — good light for photos and fewer crowds than summer." }
+    ]
+  },
+  "itineraries": {
+    "title": "Recommended Itineraries",
+    "subtitle": "Tailored ways to experience the lighthouse and the UNESCO old town, by traveller type and by time available.",
+    "audiencesTitle": "By traveller type",
+    "audiences": [
+      { "id": "family", "title": "Families with kids", "desc": "Keep it short, hands-on and close to food and restrooms.", "items": ["Climb the tower together, then explore Calle de los Suspiros", "Grab helado (ice cream) on the Plaza Mayor", "Break at a café with a restroom nearby"] },
+      { "id": "photo", "title": "Photographers & nature", "desc": "Chase the best light and the widest views.", "items": ["Golden hour from the tower top over the Río de la Plata", "Blue hour on the Rambla and Portón de Campo", "Detail shots of the convent ruins and cobbles"] },
+      { "id": "accessible", "title": "Low-effort / accessible", "desc": "Stay at ground level, no stairs required.", "items": ["Walk the flat old-town streets to the lighthouse base", "Enjoy the convent ruins and exterior for free", "Rest on a bench with a Rambla view"] }
+    ],
+    "routesTitle": "By time available",
+    "routes": [
+      { "id": "half", "title": "Half-day", "desc": "The essentials if you have a few hours.", "items": ["Arrive via the port or bus terminal on foot", "Climb the lighthouse for the panorama", "Stroll Calle de los Suspiros and the Portón de Campo"] },
+      { "id": "full", "title": "Full-day", "desc": "A relaxed day in the Barrio Histórico.", "items": ["Morning climb + museum exhibits", "Lunch at a parrilla in the old town", "Afternoon along the Rambla and Basílica", "Sunset second climb, then ferry or bus back"] }
+    ]
+  },
+  "responsibility": {
+    "title": "Heritage & Visitor Responsibility",
+    "subtitle": "The lighthouse and convent ruins are a protected part of a UNESCO World Heritage Site. A few habits keep it intact for everyone.",
+    "items": [
+      { "icon": "🏛️", "title": "Protect the ruins", "text": "Stay on paths and don't climb or lean on the 17th-century convent walls; they are fragile and protected." },
+      { "icon": "🌿", "title": "Respect the river", "text": "The Río de la Plata estuary is a living ecosystem — take all litter with you and don't disturb wildlife." },
+      { "icon": "♻️", "title": "Travel light", "text": "Refill a bottle, avoid single-use plastic and use the marked bins around the old town." },
+      { "icon": "⚓", "title": "Be a careful climber", "text": "The spiral stair is narrow and metal; hold the rail, mind children, and step aside if the tower is busy." }
+    ]
+  },
+  "knowledgeVisit": {
+    "id": "visit",
+    "title": "The climb & what you see",
+    "content": "The tower rises about 34 metres (roughly 110 feet) on a spiral staircase of around 150 steps. It is still an active aid to navigation, and its lantern sweeps the Río de la Plata after dark. From the top you look down on the terracotta roofs of the Barrio Histórico, the glinting river and, on clear days, the Argentine shore beyond. A small on-site museum explains the convent that the lighthouse was built upon. Because the stair is exposed to wind and sun, midday summer climbs are the hardest — mornings and late afternoon are kinder on the legs and the camera."
+  },
+  "quickRoutes": {
+    "title": "Quick routes to the lighthouse",
+    "items": [
+      { "from": "From the airport (Montevideo MVD)", "steps": "Take a long-distance bus, transfer or rental car to Colonia's terminal, then walk ~15 min or a short taxi into the Barrio Histórico." },
+      { "from": "From the bus terminal", "steps": "Walk ~15 min or a short taxi into the walled old town; the lighthouse is signposted from Plaza Mayor." },
+      { "from": "By taxi / rideshare", "steps": "Direct drop-off near the old-town edge; the last few minutes are on foot over cobbled streets." }
+    ]
+  },
+  "tides": {
+    "title": "Tides at the Río de la Plata",
+    "subtitle": "The river at Colonia has gentle, twice-daily tides driven by the Atlantic. The heights below help you time a walk along the Rambla and the waterfront.",
+    "rising": "Rising",
+    "falling": "Falling",
+    "flat": "Level",
+    "nextHigh": "Next high tide",
+    "nextLow": "Next low tide",
+    "upcoming": "Upcoming high & low tides",
+    "high": "High",
+    "low": "Low",
+    "note": "At low water the riverbank and the edge of the Rambla expose mud and shallow shelves — keep to the paths and watch your step.",
+    "unavailable": "Live tide data is temporarily unavailable. As a rule the river rises and falls about twice a day; check locally before walking out onto the bank."
   }
 }

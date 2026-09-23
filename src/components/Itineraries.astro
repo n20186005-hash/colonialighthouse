@@ -1,0 +1,42 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const it = messages.itineraries;
+---
+
+<section id="itineraries" class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{it.title}</h2>
+    <p class="text-center text-base sm:text-lg mb-10 max-w-3xl mx-auto" style="color: var(--text-secondary);">{it.subtitle}</p>
+
+    <h3 class="font-display text-xl font-semibold mb-5 text-center" style="color: var(--accent);">{it.audiencesTitle}</h3>
+    <div class="grid md:grid-cols-3 gap-5 mb-12">
+      {it.audiences.map((a) => (
+        <div class="rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <h4 class="font-semibold text-lg mb-2" style="color: var(--text-primary);">{a.title}</h4>
+          <p class="text-sm mb-4" style="color: var(--text-muted);">{a.desc}</p>
+          <ul class="space-y-2 text-sm" style="color: var(--text-secondary); list-style:none; padding:0; margin:0;">
+            {a.items.map((item) => (
+              <li class="flex gap-2"><span style="color: var(--accent);">✓</span><span>{item}</span></li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <h3 class="font-display text-xl font-semibold mb-5 text-center" style="color: var(--accent);">{it.routesTitle}</h3>
+    <div class="grid md:grid-cols-2 gap-5">
+      {it.routes.map((r) => (
+        <div class="rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <h4 class="font-semibold text-lg mb-2" style="color: var(--text-primary);">{r.title}</h4>
+          <p class="text-sm mb-4" style="color: var(--text-muted);">{r.desc}</p>
+          <ol class="space-y-2 text-sm" style="color: var(--text-secondary); padding-left: 1.1rem; margin:0; list-style: decimal;">
+            {r.items.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

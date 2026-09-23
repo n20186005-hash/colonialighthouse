@@ -2,7 +2,7 @@
 import { getI18n } from '../i18n/ui';
 const { messages } = getI18n(Astro.url);
 const g = messages.gallery;
-const images = Array.from({ length: 22 }, (_, i) => `/gallery/colonia-lighthouse-${String(i + 1).padStart(2, '0')}.jpg`);
+const images = Array.from({ length: 22 }, (_, i) => `/gallery/colonia-lighthouse-guide-${String(i + 1).padStart(2, '0')}.jpg`);
 ---
 
 <section id="gallery" class="section-padding" style="background: var(--bg-secondary);">

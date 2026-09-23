@@ -1,12 +1,23 @@
 ---
 import { getI18n } from '../i18n/ui';
+import { attraction } from '../config';
 const { messages } = getI18n(Astro.url);
 const intro = messages.intro;
 const om = messages.officialManagement;
+const breadcrumb = [attraction.fullName, attraction.city, attraction.stateProvince, attraction.country];
 ---
 
 <section id="visit" class="section-padding" style="background: var(--bg-secondary);">
   <div class="max-w-6xl mx-auto px-4">
+    <nav aria-label="Breadcrumb" class="flex flex-wrap items-center gap-2 text-xs sm:text-sm mb-8" style="color: var(--text-muted);">
+      {breadcrumb.map((crumb, i) => (
+        <span class="flex items-center gap-2">
+          <span>{crumb}</span>
+          {i < breadcrumb.length - 1 && <span aria-hidden="true">›</span>}
+        </span>
+      ))}
+    </nav>
+
     <div class="grid lg:grid-cols-2 gap-12 items-start">
       <div>
         <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-5" style="color: var(--text-primary);">{intro.title}</h2>

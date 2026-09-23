@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getI18n } from '../i18n/ui';
+const { messages, lang } = getI18n(Astro.url);
+const home = `/${lang}/`;
+---
+
+<BaseLayout title={messages.meta.title} description={messages.meta.description} path="404">
+  <section class="section-padding" style="background: var(--bg-secondary); min-height: 60vh; display: flex; align-items: center;">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+      <h1 class="font-display text-6xl sm:text-7xl font-bold mb-4" style="color: var(--text-primary);">404</h1>
+      <p class="text-lg mb-8" style="color: var(--text-secondary);">{messages.meta.description}</p>
+      <a href={home} class="inline-flex px-8 py-3 rounded-full font-semibold text-white" style="background: var(--accent);">
+        {messages.header.home}
+      </a>
+    </div>
+  </section>
+</BaseLayout>

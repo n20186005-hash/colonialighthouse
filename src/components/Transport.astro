@@ -2,6 +2,7 @@
 import { getI18n } from '../i18n/ui';
 const { messages } = getI18n(Astro.url);
 const section = messages.transportSection;
+const qr = messages.quickRoutes;
 ---
 
 <section id="transport" class="section-padding" style="background: var(--bg-secondary);">
@@ -49,6 +50,20 @@ const section = messages.transportSection;
         </article>
       ))}
     </div>
+
+    {qr && (
+      <div class="mt-8 rounded-2xl p-6 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+        <h3 class="font-semibold text-xl mb-4" style="color: var(--text-primary);">{qr.title}</h3>
+        <div class="grid md:grid-cols-3 gap-4">
+          {qr.items.map((item) => (
+            <div class="rounded-xl p-4 border" style="background: var(--card-bg); border-color: var(--border-color);">
+              <div class="text-sm font-semibold mb-1" style="color: var(--accent);">{item.from}</div>
+              <div class="text-sm leading-relaxed" style="color: var(--text-secondary);">{item.steps}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
 
     <div class="grid lg:grid-cols-[1fr_auto] gap-6 items-center mt-10 rounded-2xl p-6 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
       <div>

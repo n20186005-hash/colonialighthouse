@@ -1,0 +1,22 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const f = messages.facilities;
+---
+
+<section id="facilities" class="section-padding" style="background: var(--bg-primary);">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{f.title}</h2>
+    <p class="text-center text-base sm:text-lg mb-10 max-w-3xl mx-auto" style="color: var(--text-secondary);">{f.subtitle}</p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {f.items.map((it) => (
+        <div class="rounded-2xl p-5 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="text-2xl mb-2" aria-hidden="true">{it.icon}</div>
+          <div class="text-sm font-semibold mb-1" style="color: var(--text-primary);">{it.label}</div>
+          <div class="text-sm leading-relaxed" style="color: var(--text-secondary);">{it.value}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,113 @@
+---
+import { getI18n, getLangFromUrl } from '../i18n/ui';
+import { getWeather } from '../lib/weather';
+const { messages } = getI18n(Astro.url);
+const lang = getLangFromUrl(Astro.url) as 'es' | 'en' | 'zh' | 'gn';
+const w = await getWeather(lang);
+const W = messages.weather;
+---
+
+<section id="weather" class="section-padding" style="background: var(--bg-secondary);">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{W.title}</h2>
+    <p class="text-center text-base sm:text-lg mb-10" style="color: var(--text-secondary);">{W.subtitle}</p>
+
+    <div id="weather-body" data-initial={JSON.stringify(w)} data-i18n={JSON.stringify(W)} data-lang={lang}
+         class="rounded-2xl p-6 border" style="background: var(--bg-tertiary); border-color: var(--border-color);">
+      {w ? (
+        <p class="text-center text-lg" style="color: var(--text-secondary);">{w.current.temp}°C · {w.current.desc}</p>
+      ) : (
+        <p class="text-center text-base" style="color: var(--text-muted);">{W.unavailable}</p>
+      )}
+      {w && (
+        <noscript>
+          <div class="mt-2 text-center text-sm" style="color: var(--text-muted);">
+            {w.current.feels !== w.current.temp ? `${W.feelsLike} ${w.current.feels}°C · ` : ''}{W.humidity} ${w.current.humidity}% · {W.wind} ${w.current.wind} km/h
+          </div>
+        </noscript>
+      )}
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var root = document.getElementById('weather-body');
+    if (!root) return;
+    var initial = JSON.parse(root.getAttribute('data-initial') || 'null');
+    var W = JSON.parse(root.getAttribute('data-i18n') || '{}');
+    var lang = root.getAttribute('data-lang');
+    var BCP47 = { es: 'es-ES', en: 'en-US', zh: 'zh-CN', gn: 'gn' };
+
+    function esc(s) {
+      return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+      });
+    }
+    function wd(dateStr) {
+      try {
+        var dt = new Date(dateStr + 'T12:00:00');
+        return new Intl.DateTimeFormat(BCP47[lang] || 'en-US', { weekday: 'short' }).format(dt);
+      } catch (e) { return dateStr; }
+    }
+
+    function adviceCard(title, items, tone) {
+      if (!items || !items.length) return '';
+      var bg = tone === 'alert' ? 'rgba(196,107,42,0.12)' : tone === 'risk' ? 'rgba(212,132,61,0.10)' : 'var(--card-bg)';
+      var border = tone === 'alert' ? '#c76b2a' : tone === 'risk' ? '#d4843d' : 'var(--border-color)';
+      var lis = items.map(function (t) { return '<li style="margin:2px 0;">' + esc(t) + '</li>'; }).join('');
+      return '<div class="rounded-xl p-4 border" style="background:' + bg + ';border-color:' + border + ';">' +
+        '<div class="text-sm font-semibold mb-2" style="color:var(--accent);">' + esc(title) + '</div>' +
+        '<ul class="text-sm" style="color:var(--text-secondary);list-style:none;padding:0;margin:0;">' + lis + '</ul></div>';
+    }
+
+    function render(d) {
+      if (!d) {
+        root.innerHTML = '<p class="text-center text-base" style="color:var(--text-muted);">' + esc(W.unavailable) + '</p>';
+        return;
+      }
+      var c = d.current;
+      var cur =
+        '<div class="flex flex-col sm:flex-row items-center gap-6 mb-6">' +
+          '<div class="text-5xl">' + esc(c.icon) + '</div>' +
+          '<div class="text-center sm:text-left">' +
+            '<div class="text-3xl font-semibold" style="color:var(--text-primary);">' + esc(c.temp) + '°C · ' + esc(c.desc) + '</div>' +
+            '<div class="text-sm mt-1" style="color:var(--text-secondary);">' +
+              (c.feels !== c.temp ? esc(W.feelsLike) + ' ' + esc(c.feels) + '°C · ' : '') +
+              esc(W.humidity) + ' ' + esc(c.humidity) + '% · ' + esc(W.wind) + ' ' + esc(c.wind) + ' km/h' +
+              (c.precipProb != null ? ' · ' + esc(W.precip) + ' ' + esc(c.precipProb) + '%' : '') +
+              ' · ' + esc(W.uv) + ' ' + esc(d.daily[0] ? d.daily[0].uv : '–') +
+            '</div>' +
+          '</div>' +
+        '</div>';
+
+      var top = adviceCard(W.alert, d.advice.alert, 'alert') + adviceCard(W.risk, d.advice.risk, 'risk');
+      var topHtml = top ? '<div class="grid sm:grid-cols-2 gap-3 mb-3">' + top + '</div>' : '';
+      var adv = topHtml + '<div class="grid sm:grid-cols-3 gap-3 mb-6">' +
+        adviceCard(W.outfit, d.advice.outfit, 'normal') +
+        adviceCard(W.plan, d.advice.plan, 'normal') +
+        adviceCard(W.items, d.advice.items, 'normal') +
+        '</div>';
+
+      var days = d.daily.map(function (x) {
+        return '<div class="text-center p-2">' +
+          '<div class="text-xs uppercase" style="color:var(--text-muted);">' + esc(wd(x.date)) + '</div>' +
+          '<div class="text-2xl my-1">' + esc(x.icon) + '</div>' +
+          '<div class="text-sm" style="color:var(--text-primary);">' + esc(x.tmax) + '° / ' + esc(x.tmin) + '°</div>' +
+          '<div class="text-xs" style="color:var(--text-muted);">' + esc(W.precip) + ' ' + esc(x.precipProb) + '%</div>' +
+          '</div>';
+      }).join('');
+      var fc = '<div class="border-t pt-4" style="border-color:var(--border-color);">' +
+        '<div class="text-sm font-semibold mb-3" style="color:var(--text-primary);">' + esc(W.forecast) + '</div>' +
+        '<div class="grid grid-cols-4 sm:grid-cols-7 gap-1">' + days + '</div></div>';
+
+      root.innerHTML = cur + adv + fc;
+    }
+
+    if (initial) render(initial);
+    fetch('/api/weather?lang=' + lang)
+      .then(function (r) { return r.json(); })
+      .then(function (d) { if (d) render(d); })
+      .catch(function () {});
+  })();
+</script>

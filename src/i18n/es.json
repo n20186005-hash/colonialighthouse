@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Faro de Colonia del Sacramento | Uruguay",
+    "title": "Faro de Colonia del Sacramento, Colonia del Sacramento — Guía de visita",
     "description": "Guía completa del Faro de Colonia del Sacramento: historia, las ruinas del convento de San Francisco sobre las que se levanta, fotos, opiniones de visitantes y cómo llegar en el barrio histórico declarado Patrimonio de la Humanidad."
   },
   "header": {
@@ -22,8 +22,8 @@
   "hero": {
     "title": "Faro de Colonia del Sacramento",
     "subtitle": "Un faro del siglo XIX que se alza sobre las ruinas de un convento del siglo XVII, centinela silencioso del Río de la Plata y del casco histórico de Uruguay Patrimonio de la Humanidad.",
-    "rating": "4.6(8.706)",
-    "reviewCount": "8.706 opiniones",
+    "rating": "4.6(8.838)",
+    "reviewCount": "8.838 opiniones",
     "hours": "Suele abrir todos los días, ~10:30–17:30",
     "openMaps": "Ver ubicación",
     "mapsUrl": "https://maps.app.goo.gl/eo5dSdxMzLinv3Qw6"
@@ -386,5 +386,109 @@
       { "name": "Tour en bicicleta por Colonia", "url": "https://uruguaynatural.com/" },
       { "name": "Excursión de un día a Buenos Aires en ferry", "url": "https://www.gub.uy/ministerio-turismo/" }
     ]
+  },
+  "sources": {
+    "title": "Fuentes y referencias oficiales",
+    "subtitle": "Referencias autorizadas utilizadas para elaborar esta guía independiente.",
+    "items": [
+      { "name": "Centro del Patrimonio Mundial de la UNESCO — Casco Histórico de Colonia del Sacramento", "publisher": "UNESCO", "url": "https://whc.unesco.org/en/list/747/" },
+      { "name": "Ministerio de Turismo (Uruguay)", "publisher": "Gobierno de Uruguay", "url": "https://www.gub.uy/ministerio-turismo/" },
+      { "name": "Uruguay Natural — Turismo Oficial", "publisher": "Uruguay Natural", "url": "https://uruguaynatural.com/" },
+      { "name": "Intendencia de Colonia", "publisher": "Gobierno Departamental", "url": "https://www.colonia.gub.uy/" }
+    ]
+  },
+  "weather": {
+    "title": "Clima y mejor época para visitar",
+    "subtitle": "Condiciones en vivo en el faro y pronóstico a 7 días para Colonia del Sacramento, para planificar según el sol, el viento y la lluvia del Río de la Plata.",
+    "feelsLike": "Sensación térmica",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "precip": "Lluvia",
+    "uv": "UV",
+    "forecast": "Pronóstico a 7 días",
+    "unavailable": "El clima en vivo no está disponible temporalmente. El faro abre todos los días de 10:30 a 17:30 aprox.; míralo al cielo antes de subir.",
+    "alert": "Aviso de clima",
+    "risk": "Precaución",
+    "outfit": "Qué vestir",
+    "plan": "Plan para hoy",
+    "items": "Lleva"
+  },
+  "facilities": {
+    "title": "Servicios al visitante y equipamientos cercanos",
+    "subtitle": "Información práctica y neutral por tipo para planificar tu visita al Barrio Histórico. Listamos categorías, no comercios concretos, para mantener la independencia.",
+    "items": [
+      { "icon": "🚻", "label": "Baños", "value": "Dentro del museo y en cafeterías cerca de la Plaza Mayor; no hay baño público en la base de la torre." },
+      { "icon": "🅿️", "label": "Estacionamiento", "value": "Zona azul de pago en la calle y algunos estacionamientos fuera del casco amurallado; camina desde allí." },
+      { "icon": "🍽️", "label": "Comida y bebida", "value": "Cafeterías, parrillas y heladerías bordean las calles peatonales del casco, a pasos del faro." },
+      { "icon": "🛏️", "label": "Alojamiento", "value": "Posadas y hoteles pequeños en el casco y la Rambla; reserva con antelación en verano." },
+      { "icon": "🛒", "label": "Tiendas", "value": "Despensas y souvenirs cerca del puerto y la Plaza Mayor para lo básico y regalos." },
+      { "icon": "🔌", "label": "Combustible y carga", "value": "Estaciones de servicio en el centro; los puntos de carga para EV son limitados — planifica si vas en auto eléctrico." },
+      { "icon": "💵", "label": "Dinero", "value": "Cajeros y casas de cambio en el centro; lleva algo de efectivo para museos pequeños y kioscos." },
+      { "icon": "♿", "label": "Accesibilidad", "value": "Calles empedradas llegan a la base del faro; la escalera de caracol al mirador no es apta para sillas de ruedas." }
+    ]
+  },
+  "seasonal": {
+    "title": "Estrategia de viaje por estación",
+    "subtitle": "Colonia tiene clima templado por el Río de la Plata. Según las normales climáticas de 30 años, esto es lo que esperar cada estación — fechas del hemisferio sur.",
+    "note": "Las cifras son promedios regionales indicativos de 30 años, no un pronóstico. Revisa el clima en vivo antes de salir.",
+    "cols": ["Estación", "Temperatura", "Lluvia", "Viento", "Consejo"],
+    "rows": [
+      { "season": "Verano (dic–feb)", "temp": "Cálido, 20–30°C", "rain": "Chaparrones y tormentas ocasionales", "wind": "Ventoso, Pampero fuerte posible", "advice": "Sube al amanecer o después de las 17:00 para evitar el sol del mediodía; lleva agua y protección solar." },
+      { "season": "Otoño (mar–may)", "temp": "Templado, 15–24°C", "rain": "Ligera, en descenso", "wind": "Moderado", "advice": "A menudo la estación más cómoda para caminar y fotografiar el casco." },
+      { "season": "Invierno (jun–ago)", "temp": "Fresco, 8–16°C", "rain": "Frentes ocasionales", "wind": "Frío, ráfagas", "advice": "Viste en capas abrigadas; la escalera metálica enfría y la torre puede cerrar con tormenta." },
+      { "season": "Primavera (sep–nov)", "temp": "Templado, 16–25°C", "rain": "Variable", "wind": "Ventoso", "advice": "Días verdes y agradables — buena luz para fotos y menos gente que en verano." }
+    ]
+  },
+  "itineraries": {
+    "title": "Itinerarios recomendados",
+    "subtitle": "Formas a medida de conocer el faro y el casco UNESCO, según el tipo de viajero y el tiempo disponible.",
+    "audiencesTitle": "Por tipo de viajero",
+    "audiences": [
+      { "id": "family", "title": "Familias con niños", "desc": "Corto, práctico y cerca de comida y baños.", "items": ["Suban al faro juntos y exploren Calle de los Suspiros", "Tomen helado en la Plaza Mayor", "Descanse en una cafetería con baño cercano"] },
+      { "id": "photo", "title": "Fotógrafos y naturaleza", "desc": "Busquen la mejor luz y las vistas más amplias.", "items": ["Hora dorada desde la cima sobre el Río de la Plata", "Hora azul en la Rambla y el Portón de Campo", "Detalles de las ruinas del convento y los adoquines"] },
+      { "id": "accessible", "title": "Bajo esfuerzo / accesible", "desc": "A nivel del suelo, sin escaleras.", "items": ["Caminen las calles llanas hasta la base del faro", "Disfruten las ruinas y el exterior gratis", "Descansen en un banco con vista a la Rambla"] }
+    ],
+    "routesTitle": "Por tiempo disponible",
+    "routes": [
+      { "id": "half", "title": "Medio día", "desc": "Lo esencial si tienes pocas horas.", "items": ["Llega a pie desde el puerto o la terminal de ómnibus", "Sube al faro por la panorámica", "Pasea por Calle de los Suspiros y el Portón de Campo"] },
+      { "id": "full", "title": "Día completo", "desc": "Un día relax en el Barrio Histórico.", "items": ["Subida matinal + sala del museo", "Almuerzo en una parrilla del casco", "Tarde en la Rambla y la Basílica", "Segunda subida al atardecer y vuelta en ferry o ómnibus"] }
+    ]
+  },
+  "responsibility": {
+    "title": "Patrimonio y responsabilidad del visitante",
+    "subtitle": "El faro y las ruinas del convento son parte protegida de un Sitio de Patrimonio Mundial UNESCO. Unos hábitos lo conservan para todos.",
+    "items": [
+      { "icon": "🏛️", "title": "Protege las ruinas", "text": "Quédate en los senderos y no subas ni te apoyes en los muros del convento del siglo XVII; son frágiles y protegidos." },
+      { "icon": "🌿", "title": "Respeto al río", "text": "El estuario del Río de la Plata es un ecosistema vivo — lleva tu basura y no molestes la fauna." },
+      { "icon": "♻️", "title": "Viaja ligero", "text": "Rellena una botella, evita el plástico desechable y usa los tachos señalizados del casco." },
+      { "icon": "⚓", "title": "Sube con cuidado", "text": "La escalera de caracol es estrecha y metálica; sujétate al pasamanos, cuida a los niños y cede el paso si hay gente." }
+    ]
+  },
+  "knowledgeVisit": {
+    "id": "visit",
+    "title": "La subida y lo que se ve",
+    "content": "La torre se eleva unos 34 metros (unos 110 pies) por una escalera de caracol de unas 150 gradas. Sigue siendo una ayuda activa a la navegación, y su linterna barre el Río de la Plata de noche. Desde arriba se ve el terracota de los techos del Barrio Histórico, el río que reluce y, los días claros, la costa argentina al fondo. Un pequeño museo in situ explica el convento sobre el que se construyó el faro. Como la escalera queda expuesta al viento y al sol, las subidas al mediodía de verano son las más duras — mañanas y tardes son más amables con las piernas y la cámara."
+  },
+  "quickRoutes": {
+    "title": "Rutas rápidas al faro",
+    "items": [
+      { "from": "Desde el aeropuerto (Montevideo MVD)", "steps": "Ómnibus de larga distancia, trasbordo o auto de alquiler hasta la terminal de Colonia; luego camina ~15 min o un taxi corto al Barrio Histórico." },
+      { "from": "Desde la terminal de ómnibus", "steps": "Camina ~15 min o un taxi corto al casco amurallado; el faro está señalizado desde la Plaza Mayor." },
+      { "from": "En taxi / remís", "steps": "Dejada cerca del borde del casco; los últimos minutos son a pie por adoquines." }
+    ]
+  },
+  "tides": {
+    "title": "Mareas en el Río de la Plata",
+    "subtitle": "El río en Colonia tiene mareas suaves, dos veces al día, empujadas por el Atlántico. Las alturas ayudan a cronometrar un paseo por la Rambla y la orilla.",
+    "rising": "Subiendo",
+    "falling": "Bajando",
+    "flat": "Estable",
+    "nextHigh": "Próxima pleamar",
+    "nextLow": "Próxima bajamar",
+    "upcoming": "Próximas pleamares y bajamares",
+    "high": "Pleamar",
+    "low": "Bajamar",
+    "note": "En bajamar la orilla y el borde de la Rambla dejan al descubierto barro y bancos poco profundos — quédate en los senderos y cuida el paso.",
+    "unavailable": "Los datos de marea en vivo no están disponibles. Por regla el río sube y baja unas dos veces al día; consulta en el lugar antes de salir a la orilla."
   }
 }
